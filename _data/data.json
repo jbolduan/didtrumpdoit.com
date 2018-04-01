@@ -1,21 +1,17 @@
 {
   "icons": {
-    "Community": "group",
     "Ships": "rocket",
     "Engine": "hdd-o",
     "Server": "server",
     "Assets": "folder",
-    "Flight": "plane",
     "Economy": "dollar",
     "Shop": "shopping-cart",
     "Mechanics": "cog",
-    "Gameplay": "gamepad",
     "NPCs": "id-card",
     "Levels": "tree",
     "Mods": "code-fork",
     "Promo": "bullhorn",
-    "MoCap": "child",
-    "Misc": "ellipsis-h"
+    "MoCap": "child"
   },
   "statuses": {
     "Completed": { "color": "success", "icon": "check-circle-o" },
@@ -27,6 +23,26 @@
   },
   "confidence": 95.1,
   "promises": [
+    {
+      "title": "Character DNA blending",
+      "category": "Assets",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/C-p4ALbROUs?t=2100"]
+    },
+    {
+      "title": "Tractor beam players",
+      "category": "Mechanics",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/ydQhJPPcSYA?t=290"]
+    },
+    {
+      "title": "Realtime commodities",
+      "category": "Economy",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/WWOfwijbJTQ?t=81"],
+      "quote":
+        "CIG Developer|but also click on a planet dive down into and be able to see the economic status of the commodities or things that are portrayed on that planet directly from the star map so you can kind of go okay I'm gonna go here get that go there get that"
+    },
     {
       "title": "Single shard",
       "category": "Levels",
@@ -200,7 +216,7 @@
     {
       "title": "Tumbril Cyclone",
       "category": "Ships",
-      "status": "Not implemented",
+      "status": "Completed",
       "sources": [
         "https://robertsspaceindustries.com/comm-link/transmission/16019-Rough-And-Tumbril"
       ],
@@ -223,19 +239,10 @@
       "status": "Completed",
       "sources": [
         "https://robertsspaceindustries.com/pledge/ships/drake-dragonfly/Dragonfly-Yellowjacket",
-        "https://youtu.be/Xgyeukt1De0?t=228"
+        "https://youtu.be/Xgyeukt1De0?t=228",
+        "https://clips.twitch.tv/EmpathicMoralHornetVoteNay"
       ],
       "quote": "RSI Site|Available in Alpha 3.0."
-    },
-    {
-      "title": "Two or three big releases in 2017",
-      "category": "Promo",
-      "status": "Broken",
-      "sources": [
-        "http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/"
-      ],
-      "quote":
-        "Erin Roberts|We’re still at the start of the year and there is a lot of scheduling work going on so I’m obviously not giving dates today and of course we want to give the juicy information to the community first, but we’re looking at putting out perhaps 2 or 3 big releases this year which significantly push the amount of locations, gameplay mechanics and content that the players will be able to experience and give feedback on."
     },
     {
       "title": "Thousands of players in the same area",
@@ -249,6 +256,16 @@
       ],
       "quote":
         "Erin Roberts|So with the next big release a lot of the underlying game is there and then we can look at transferring people between servers so we can have hundreds of thousands of people maybe in one instance, but that doesn’t come online until later."
+    },
+    {
+      "title": "Two or three big releases in 2017",
+      "category": "Promo",
+      "status": "Broken",
+      "sources": [
+        "http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/"
+      ],
+      "quote":
+        "Erin Roberts|We’re still at the start of the year and there is a lot of scheduling work going on so I’m obviously not giving dates today and of course we want to give the juicy information to the community first, but we’re looking at putting out perhaps 2 or 3 big releases this year which significantly push the amount of locations, gameplay mechanics and content that the players will be able to experience and give feedback on."
     },
     {
       "title": "Anvil Hurricane",
@@ -288,17 +305,6 @@
         "Going forward, these cash sales will focus on newly introduced concept ships and top tier limited capital ships."
     },
     {
-      "title": "Leir III Sandworm",
-      "category": "NPCs",
-      "status": "Broken",
-      "sources": [
-        "https://starcitizen.tools/Leir_III",
-        "https://i.imgur.com/6EpWeDa.png"
-      ],
-      "quote":
-        "Sure. We aren’t selling something that won’t be in the game. We are going to have creatures on our planets. We’re going to have xenomorphs on wrecks, dangerous alien creatures on planets and so on, probably even a space whale / leviathan."
-    },
-    {
       "title": "RSI Polaris",
       "category": "Ships",
       "status": "Not implemented",
@@ -309,13 +315,15 @@
         "RSI Site|The Polaris is being offered for the first time as a limited concept sale. This means that the ship design meets our specifications, but it is not yet ready to display in your Hangar, fight in Arena Commander or fly in the Alpha."
     },
     {
-      "title": "Runtime generation of planets",
-      "category": "Levels",
+      "title": "Leir III Sandworm",
+      "category": "NPCs",
       "status": "Broken",
       "sources": [
-        "http://i.imgur.com/8wEBHGy.png",
-        "https://youtu.be/qqcN6UkKfog?t=1070"
-      ]
+        "https://starcitizen.tools/Leir_III",
+        "https://i.imgur.com/6EpWeDa.png"
+      ],
+      "quote":
+        "Sure. We aren’t selling something that won’t be in the game. We are going to have creatures on our planets. We’re going to have xenomorphs on wrecks, dangerous alien creatures on planets and so on, probably even a space whale / leviathan."
     },
     {
       "title": "Handcrafted missions supplemented by algorithmic content",
@@ -334,6 +342,15 @@
       "category": "Mechanics",
       "status": "Not implemented",
       "sources": ["http://i.imgur.com/8wEBHGy.png"]
+    },
+    {
+      "title": "Runtime generation of planets",
+      "category": "Levels",
+      "status": "Broken",
+      "sources": [
+        "http://i.imgur.com/8wEBHGy.png",
+        "https://youtu.be/qqcN6UkKfog?t=1070"
+      ]
     },
     {
       "title": "Biomes",
@@ -357,18 +374,6 @@
         "Depending on which biome is next to the other biome, there's blending rules that happen. And there's blending on multiple levels too, so there's different levels of detail and they all get blended."
     },
     {
-      "title": "3.0 patch - Increased mission complexity",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
-    },
-    {
-      "title": "3.0 patch - Economy driven missions",
-      "category": "Economy",
-      "status": "Broken",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
-    },
-    {
       "title": "3.0 patch - Day and night cycles",
       "category": "Assets",
       "status": "Completed",
@@ -379,140 +384,16 @@
       ]
     },
     {
-      "title": "3.0 patch - Basic mining",
+      "title": "3.0 patch - Increased mission complexity",
       "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "https://youtu.be/Uhra2SETLNs?t=2408",
-        "http://i.imgur.com/mVjzyCq.png"
-      ]
-    },
-    {
-      "title": "3.0 patch - Trading",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://imgur.com/a/1yjPK#BO07hBV",
-        "https://clips.twitch.tv/AcceptableArborealBottleKappa"
-      ]
-    },
-    {
-      "title": "3.0 patch - Piracy",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
-    },
-    {
-      "title": "3.0 patch - Mercenary",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
-    },
-    {
-      "title": "3.0 patch - Bounty hunting",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://imgur.com/a/1yjPK#BO07hBV",
-        "https://youtu.be/0pxlhEUFUPw?t=1067"
-      ]
-    },
-    {
-      "title": "3.0 patch - Diverse NPC actions",
-      "category": "NPCs",
       "status": "Broken",
       "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
     },
     {
-      "title": "3.0 patch - Walk anywhere on planets and moons",
-      "category": "Levels",
-      "status": "Completed",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=43m45s"],
-      "quote":
-        "In 3.0 as we're demonstrating; every planet, every moon, um will be fully done rendered physicalized, you can land on any part of em, walk all the way around it if you want, if you've got uh months to do that cause they're quite large."
-    },
-    {
-      "title": "3.0 patch - Seamless planetary/lunar landing",
-      "category": "Levels",
-      "status": "Completed",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=43m45s"]
-    },
-    {
-      "title":
-        "3.0 patch - Immersive landing pad and traffic control from NPCs",
-      "category": "NPCs",
-      "status": "Completed",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=49m27s"]
-    },
-    {
-      "title": "3.0 patch - Planetside module",
-      "category": "Levels",
-      "status": "Compromised",
-      "sources": [
-        "https://youtu.be/hYFCfRK4e6Y?t=1451",
-        "https://www.mmorpg.com/gamelist.cfm/game/883/feature/7539/Star-Citizen-E3-2013-Chatting-Star-Citizen-with-Chris-Roberts.html",
-        "https://youtu.be/kD2aVH053cM?t=269"
-      ]
-    },
-    {
-      "title": "3.0 patch - Expand the Stanton System",
-      "category": "Levels",
-      "status": "In alpha",
-      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
-    },
-    {
-      "title": "3.0 patch - Cargo Transport",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
-    },
-    {
-      "title": "3.1 patch - Mining",
-      "category": "Mechanics",
+      "title": "3.0 patch - Economy driven missions",
+      "category": "Economy",
       "status": "Broken",
-      "sources": [
-        "http://i.imgur.com/b9v2ygR.png",
-        "https://youtu.be/vUHUW_magpU?t=2h23m40s",
-        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
-      ]
-    },
-    {
-      "title": "3.1 patch - Refining and Processing",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://i.imgur.com/b9v2ygR.png",
-        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
-      ]
-    },
-    {
-      "title": "3.1 patch - Quantum Interdiction",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "http://i.imgur.com/b9v2ygR.png",
-        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
-      ],
-      "quote":
-        "RSI Site|Added Interdiction and Environmental Missions: There's now a chance to be interdicted during quantum travel. Players will also find random encounters scattered throughout the verse."
-    },
-    {
-      "title": "3.1 patch - Refueling",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://i.imgur.com/b9v2ygR.png",
-        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
-      ]
-    },
-    {
-      "title": "3.1 patch - Escort",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://i.imgur.com/b9v2ygR.png",
-        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
-      ]
+      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
     },
     {
       "title": "3.2 patch - Salvage",
@@ -571,6 +452,142 @@
       "category": "Mechanics",
       "status": "Not implemented",
       "sources": ["http://i.imgur.com/Q6hq3zG.png"]
+    },
+    {
+      "title": "3.0 patch - Expand the Stanton System",
+      "category": "Levels",
+      "status": "In alpha",
+      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
+    },
+    {
+      "title": "3.0 patch - Cargo Transport",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
+    },
+    {
+      "title": "3.1 patch - Quantum Interdiction",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "http://i.imgur.com/b9v2ygR.png",
+        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
+      ],
+      "quote":
+        "RSI Site|Added Interdiction and Environmental Missions: There's now a chance to be interdicted during quantum travel. Players will also find random encounters scattered throughout the verse."
+    },
+    {
+      "title": "3.0 patch - Planetside module",
+      "category": "Levels",
+      "status": "Compromised",
+      "sources": [
+        "https://youtu.be/hYFCfRK4e6Y?t=1451",
+        "https://www.mmorpg.com/gamelist.cfm/game/883/feature/7539/Star-Citizen-E3-2013-Chatting-Star-Citizen-with-Chris-Roberts.html",
+        "https://youtu.be/kD2aVH053cM?t=269"
+      ]
+    },
+    {
+      "title": "3.0 patch - Walk anywhere on planets and moons",
+      "category": "Levels",
+      "status": "Completed",
+      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=43m45s"],
+      "quote":
+        "In 3.0 as we're demonstrating; every planet, every moon, um will be fully done rendered physicalized, you can land on any part of em, walk all the way around it if you want, if you've got uh months to do that cause they're quite large."
+    },
+    {
+      "title": "3.0 patch - Seamless planetary/lunar landing",
+      "category": "Levels",
+      "status": "Completed",
+      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=43m45s"]
+    },
+    {
+      "title":
+        "3.0 patch - Immersive landing pad and traffic control from NPCs",
+      "category": "NPCs",
+      "status": "Completed",
+      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=49m27s"]
+    },
+    {
+      "title": "3.0 patch - Basic mining",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "https://youtu.be/Uhra2SETLNs?t=2408",
+        "http://i.imgur.com/mVjzyCq.png"
+      ]
+    },
+    {
+      "title": "3.0 patch - Trading",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://imgur.com/a/1yjPK#BO07hBV",
+        "https://clips.twitch.tv/AcceptableArborealBottleKappa"
+      ]
+    },
+    {
+      "title": "3.0 patch - Piracy",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
+    },
+    {
+      "title": "3.0 patch - Mercenary",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": ["http://imgur.com/a/1yjPK#BO07hBV"]
+    },
+    {
+      "title": "3.0 patch - Bounty hunting",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://imgur.com/a/1yjPK#BO07hBV",
+        "https://youtu.be/0pxlhEUFUPw?t=1067"
+      ]
+    },
+    {
+      "title": "3.0 patch - Diverse NPC actions",
+      "category": "NPCs",
+      "status": "Broken",
+      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
+    },
+    {
+      "title": "3.1 patch - Mining",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://i.imgur.com/b9v2ygR.png",
+        "https://youtu.be/vUHUW_magpU?t=2h23m40s",
+        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
+      ]
+    },
+    {
+      "title": "3.1 patch - Refining and Processing",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://i.imgur.com/b9v2ygR.png",
+        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
+      ]
+    },
+    {
+      "title": "3.1 patch - Refueling",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://i.imgur.com/b9v2ygR.png",
+        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
+      ]
+    },
+    {
+      "title": "3.1 patch - Escort",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://i.imgur.com/b9v2ygR.png",
+        "https://robertsspaceindustries.com/spectrum/community/SC/forum/4/thread/star-citizen-alpha-3-1-0-initial-ptu-733018-patch-"
+      ]
     },
     {
       "title": "Incremental/Delta patcher",
@@ -1127,6 +1144,7 @@
       "status": "Broken",
       "sources": [
         "http://i.imgur.com/takjQlJ.png",
+        "https://i.imgur.com/77EIj1T.png",
         "http://www.saitek.com/uk/blog/index.php/could-be-the-best-new-hotas-concept-in-a-decade-polygon",
         "https://www.polygon.com/2015/10/15/9540153/star-citizens-custom-joystick-looks-positively-stunning",
         "https://www.reddit.com/r/starcitizen/comments/6cyc7c/star_citizen_hotas_prototype_sold_on_ebay/"
@@ -1149,17 +1167,6 @@
         "So if you it normally and you're not doing crazy evasive maneuvers it's all fine but the moment you have to like do a crazy evasive maneuver then you know people get thrown around a little bit"
     },
     {
-      "title": "Multiple stations on multi-crew ships",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "https://youtu.be/zt4r3ksHXng?t=1118",
-        "https://youtu.be/34m1pBfYJlU"
-      ],
-      "quote":
-        "But you are going to have your helm, your sort of radar scanning, your engineering section, obviously people in things like turrets to protect and we are going to have specific gameplay that's there so when you are working with your other shipmates manning the ship whether it's tracking things or protecting the ship or fixing things or balancing shields at the whole shield station we sort of have for the multi-crew"
-    },
-    {
       "title": "Squadron 42: Difficulty setting",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -1174,6 +1181,17 @@
       "sources": ["https://youtu.be/zt4r3ksHXng?t=1372"],
       "quote":
         "So there will definitely be debris fields you can salvage and there will just be some that will be seeded out there similar to asteroid fields"
+    },
+    {
+      "title": "Multiple stations on multi-crew ships",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "https://youtu.be/zt4r3ksHXng?t=1118",
+        "https://youtu.be/34m1pBfYJlU"
+      ],
+      "quote":
+        "But you are going to have your helm, your sort of radar scanning, your engineering section, obviously people in things like turrets to protect and we are going to have specific gameplay that's there so when you are working with your other shipmates manning the ship whether it's tracking things or protecting the ship or fixing things or balancing shields at the whole shield station we sort of have for the multi-crew"
     },
     {
       "title": "Public Transportation System",
@@ -1503,27 +1521,6 @@
         "RSI Site|Want some bigger bang for your credit… literally? Flashfire Systems is proud to offer a new selection of ‘special mission’ VariPuck weapon mounts designed to provide additional handling capacity on specifically designated single-seater spacecraft. These carefully designed mounts will transform larger hardpoints on the Hornet and Cutlass-class platforms to allow them to attach large weaponry"
     },
     {
-      "title": "MISC Reliant",
-      "category": "Ships",
-      "status": "Completed",
-      "tags": ["Official Stretch Goal"],
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/transmission/14730-MISC-Reliant-Now-Available/",
-        "http://starcitizen.wikia.com/wiki/Reliant"
-      ]
-    },
-    {
-      "title": "Argo Multi Purpose Utility Vehicle (MPUV)",
-      "category": "Ships",
-      "status": "Completed",
-      "sources": [
-        "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo",
-        "https://robertsspaceindustries.com/comm-link/transmission/14335-Introducing-The-Javelin-Destroyer"
-      ],
-      "quote":
-        "RSI Site|The ARGO Astronautics MPUV-1C (commonly ‘Argo Cargo’) is a dedicated merchant transfer ship, a ubiquitous intergalactic stevedore. Vast numbers of Argo Cargos are responsible for loading and unloading goods onto massive long-haul transports and miners that cannot otherwise land on planets or drydocks, such as the Hull D and the Orion. Some captains choose to own and operate their own Argo, while others pay privately owned ships operating as port services a rental fee for performing the unloading process."
-    },
-    {
       "title": "UEE Javelin",
       "category": "Ships",
       "status": "Not implemented",
@@ -1565,6 +1562,27 @@
         "For example: if you have purchased a Redeemer, then using the new system you would have a variety of new modules available to refit the ship, internal and external, to suit your play requirements. If you wanted to make it a Bounty Hunter ship, you could buy a “Stasis Chamber module” for the lower deck and you would be able to capture and store fugitives to be delivered for their bounties at your leisure."
     },
     {
+      "title": "MISC Reliant",
+      "category": "Ships",
+      "status": "Completed",
+      "tags": ["Official Stretch Goal"],
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/transmission/14730-MISC-Reliant-Now-Available/",
+        "http://starcitizen.wikia.com/wiki/Reliant"
+      ]
+    },
+    {
+      "title": "Argo Multi Purpose Utility Vehicle (MPUV)",
+      "category": "Ships",
+      "status": "Completed",
+      "sources": [
+        "https://robertsspaceindustries.com/pledge/ships/argo/MPUV-Cargo",
+        "https://robertsspaceindustries.com/comm-link/transmission/14335-Introducing-The-Javelin-Destroyer"
+      ],
+      "quote":
+        "RSI Site|The ARGO Astronautics MPUV-1C (commonly ‘Argo Cargo’) is a dedicated merchant transfer ship, a ubiquitous intergalactic stevedore. Vast numbers of Argo Cargos are responsible for loading and unloading goods onto massive long-haul transports and miners that cannot otherwise land on planets or drydocks, such as the Hull D and the Orion. Some captains choose to own and operate their own Argo, while others pay privately owned ships operating as port services a rental fee for performing the unloading process."
+    },
+    {
       "title": "Sleeping",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -1601,7 +1619,10 @@
       "title": "Tractor beam large physics objects",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["https://youtu.be/FXnNwUmnl3o?t=569"],
+      "sources": [
+        "https://youtu.be/FXnNwUmnl3o?t=569",
+        "https://youtu.be/ydQhJPPcSYA?t=290"
+      ],
       "quote":
         "Well the tractor beam isn't implemented yet, but it's going to have a control/grav mechanic, it'll make whatever you're hauling with it be 'connected' to your ship, so you should be able to treat it like dragging around a piece of mass. I don't know what the strength of the beam will be yet, but assuming that there's one that you can grab hold of, you could fly your ship around and release the asteroid with momentum enough to continue in that direction. So potentially I could see people using the tractor beam in interesting ways for combat. It'll all be physically simulated correctly, think of the tractor beam as a virtual rope, and just like that there'll be limits on how big an object and how much mass you can tow etc."
     },
@@ -1629,27 +1650,6 @@
         "RSI Site|You will be able to fly a “hot” ship to the less savory parts of the Star Citizen universe, where you will probably be able to land and may be able to purchase a fake hull id code, but it will take effort and not necessarily be cheap."
     },
     {
-      "title": "Bleed out system",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen"
-      ],
-      "quote":
-        "RSI Site|Damage to limbs will normally be observable by players; taking a hit will call out a damage state in much the same way as our ships."
-    },
-    {
-      "title": "Hurt, damaged, and ruined limb system",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen",
-        "https://youtu.be/v3zWV0u_ZOw?t=129"
-      ],
-      "quote":
-        "RSI Site|Damaged limbs are useless and the player cannot use them unless they get them patched up in the field or taken to a mobile trauma system"
-    },
-    {
       "title": "Visual limb damage",
       "category": "Assets",
       "status": "Not implemented",
@@ -1668,6 +1668,27 @@
       ],
       "quote":
         "RSI Site|Field tech are gadgets that can be carried by players or NPC’s that are capable of providing temporary healing for a variety of wounds."
+    },
+    {
+      "title": "Hurt, damaged, and ruined limb system",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen",
+        "https://youtu.be/v3zWV0u_ZOw?t=129"
+      ],
+      "quote":
+        "RSI Site|Damaged limbs are useless and the player cannot use them unless they get them patched up in the field or taken to a mobile trauma system"
+    },
+    {
+      "title": "Bleed out system",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/engineering/14318-Design-Healing-Your-Spacemen"
+      ],
+      "quote":
+        "RSI Site|Damage to limbs will normally be observable by players; taking a hit will call out a damage state in much the same way as our ships."
     },
     {
       "title": "Esperia Prowler",
@@ -1705,6 +1726,16 @@
       "sources": ["http://youtu.be/XBVkhXGX8iI?t=10m50s"]
     },
     {
+      "title": "External Repair Structure",
+      "category": "Mechanics",
+      "status": "Not implemented",
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/transmission/14248-Letter-From-The-Chairman"
+      ],
+      "quote":
+        "RSI Site|For larger projects, independent sections of support struts and drive units, called the Miller ERS (External Repair Structure), can be locked together to form a sort of scaffolding around a damaged starship, the next best thing to an orbital drydock."
+    },
+    {
       "title": "Aegis Vanguard",
       "category": "Ships",
       "status": "Completed",
@@ -1715,16 +1746,6 @@
       ],
       "quote":
         "At $59 million, you voted for the Twin-Engine Deep Space Fighter, the first pure fighting ship we’ve seen added to the lineup in quite a while."
-    },
-    {
-      "title": "External Repair Structure",
-      "category": "Mechanics",
-      "status": "Not implemented",
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/transmission/14248-Letter-From-The-Chairman"
-      ],
-      "quote":
-        "RSI Site|For larger projects, independent sections of support struts and drive units, called the Miller ERS (External Repair Structure), can be locked together to form a sort of scaffolding around a damaged starship, the next best thing to an orbital drydock."
     },
     {
       "title": "Anvil Crucible",
@@ -1810,7 +1831,7 @@
     {
       "title": "J-Span Cryo-Star",
       "category": "Assets",
-      "status": "Not implemented",
+      "status": "Completed",
       "tags": ["Official Stretch Goal"],
       "sources": [
         "https://robertsspaceindustries.com/voyager-direct/Coolers/J-Span-Cryo-Star-Cooler",
@@ -1862,6 +1883,12 @@
       "sources": ["http://youtu.be/Uyur8rqbEHc?t=11m15s"]
     },
     {
+      "title": "Ship aging",
+      "category": "Mechanics",
+      "status": "Not implemented",
+      "sources": ["http://youtu.be/j0m_RZgB61E?t=54s"]
+    },
+    {
       "title": "RSI Ursa rover",
       "category": "Ships",
       "status": "Completed",
@@ -1870,12 +1897,6 @@
         "https://robertsspaceindustries.com/pledge/Add-Ons/Ursa-Rover",
         "https://gfycat.com/KlutzyMaleAnemonecrab"
       ]
-    },
-    {
-      "title": "Ship aging",
-      "category": "Mechanics",
-      "status": "Not implemented",
-      "sources": ["http://youtu.be/j0m_RZgB61E?t=54s"]
     },
     {
       "title": "Cargo weight",
@@ -1932,24 +1953,6 @@
       "sources": ["https://www.youtube.com/watch?v=yUvwba4DMLY"]
     },
     {
-      "title": "Audio queues for missile locking",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": ["http://youtu.be/XBVkhXGX8iI?t=9m22s"]
-    },
-    {
-      "title": "Different characteristics for each missle type",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "http://youtu.be/XBVkhXGX8iI?t=9m22s",
-        "https://www.youtube.com/watch?v=c_cuO21M5IM",
-        "https://youtu.be/JMkePHE94-I?t=764"
-      ],
-      "quote":
-        "So you can get one that is a fast missile, but has less of a pay load, or you can have one that's slower but has a bigger payload. Really that's just based on the ordinance you're gonna buy."
-    },
-    {
       "title": "Missle targeting systems",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -1971,6 +1974,24 @@
       "sources": ["https://youtu.be/XBVkhXGX8iI?t=838"],
       "quote":
         "You can, when you set up a mission, you'll be able to publish it as a public mission, or you'll be able to publish it to your organization, or a subset of your organization - that's kind of the way it should work."
+    },
+    {
+      "title": "Different characteristics for each missle type",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "http://youtu.be/XBVkhXGX8iI?t=9m22s",
+        "https://www.youtube.com/watch?v=c_cuO21M5IM",
+        "https://youtu.be/JMkePHE94-I?t=764"
+      ],
+      "quote":
+        "So you can get one that is a fast missile, but has less of a pay load, or you can have one that's slower but has a bigger payload. Really that's just based on the ordinance you're gonna buy."
+    },
+    {
+      "title": "Audio queues for missile locking",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": ["http://youtu.be/XBVkhXGX8iI?t=9m22s"]
     },
     {
       "title": "Loaning out your ship to other players",
@@ -2036,14 +2057,6 @@
       "sources": ["http://youtu.be/RpHGEtOXFvE?t=27m59s"]
     },
     {
-      "title": "Third person camera",
-      "category": "Engine",
-      "status": "Completed",
-      "sources": ["https://youtu.be/RSWDk8K46CI?t=493"],
-      "quote":
-        "It's kinda interesting because in the engine right now we allow you to switch between first and third person, mainly because we really think the ships look great and the characters look great, and we like to show off the cool graphics."
-    },
-    {
       "title": "Transfer fees",
       "category": "Economy",
       "status": "Not implemented",
@@ -2057,6 +2070,14 @@
       "status": "Not implemented",
       "sources": ["https://youtu.be/RSWDk8K46CI?t=650"],
       "quote": "We're not going to start everybody on the same planet."
+    },
+    {
+      "title": "Third person camera",
+      "category": "Engine",
+      "status": "Completed",
+      "sources": ["https://youtu.be/RSWDk8K46CI?t=493"],
+      "quote":
+        "It's kinda interesting because in the engine right now we allow you to switch between first and third person, mainly because we really think the ships look great and the characters look great, and we like to show off the cool graphics."
     },
     {
       "title": "Accurate skybox",
@@ -2118,14 +2139,6 @@
         "You can definitely navigate a jump point, get to name it, get to name the system, and potentially, if there were an area like a derelict asteroid base, you could land on that and control it or claim it for yourself."
     },
     {
-      "title": "Use individual buttons and switches",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": ["https://youtu.be/QWWhhg56IoM?t=654"],
-      "quote":
-        "we are planning on having you, like, if you want to turn on your engines, and turn them off, and turn on your HUD, you have to hit the switches to turn the stuff on on your dashboard"
-    },
-    {
       "title": "No sound in space preference setting",
       "category": "Assets",
       "status": "Not implemented",
@@ -2140,6 +2153,14 @@
       "sources": ["https://youtu.be/QWWhhg56IoM?t=784"],
       "quote":
         "absolutely we're gonna allow it that there's actually a whole kind of setup where you can go and get plastic surgery and change your appearance"
+    },
+    {
+      "title": "Use individual buttons and switches",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": ["https://youtu.be/QWWhhg56IoM?t=654"],
+      "quote":
+        "we are planning on having you, like, if you want to turn on your engines, and turn them off, and turn on your HUD, you have to hit the switches to turn the stuff on on your dashboard"
     },
     {
       "title": "Magnetic boots",
@@ -2190,16 +2211,6 @@
         "But we definitely do have damage modeled on all items, so it's really just a matter of doing the art and the effects once it gets damaged."
     },
     {
-      "title": "Different HUDs for different ships",
-      "category": "Assets",
-      "status": "Completed",
-      "sources": [
-        "https://youtu.be/RSWDk8K46CI?t=221",
-        "http://youtu.be/RSWDk8K46CI?t=3m53s",
-        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1mul/"
-      ]
-    },
-    {
       "title": "G-suits",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -2222,6 +2233,16 @@
         "I certainly think we'll let you save off several profiles, and then you could easily reload the bindings for, you know, your Constellation profile, or your Aurora profile"
     },
     {
+      "title": "Different HUDs for different ships",
+      "category": "Assets",
+      "status": "Completed",
+      "sources": [
+        "https://youtu.be/RSWDk8K46CI?t=221",
+        "http://youtu.be/RSWDk8K46CI?t=3m53s",
+        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1mul/"
+      ]
+    },
+    {
       "title": "Galactapedia",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -2241,8 +2262,11 @@
       "status": "Not implemented",
       "sources": [
         "http://youtu.be/RSWDk8K46CI?t=15m10s",
+        "https://youtu.be/WWOfwijbJTQ?t=538",
         "https://youtu.be/WWOfwijbJTQ?t=538"
-      ]
+      ],
+      "quote":
+        "CIG Developer|besides EMP so all of those features are still planned unfortunately they're not in the super near term"
     },
     {
       "title": "Hardcore flight sim controller support",
@@ -2319,23 +2343,6 @@
       ]
     },
     {
-      "title": "Character collaboration with Warhorse Studios",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://youtu.be/_9zJm8pK48E?t=6m32s",
-        "https://youtu.be/PbTQWmXFuM0?t=114"
-      ]
-    },
-    {
-      "title": "G-safe mode",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": ["https://youtu.be/_9zJm8pK48E?t=124"],
-      "quote":
-        "If you put the safety modes on, you won't be able to push the edges as much, so I would expect that the harder core racers would really push the edge, maybe turn com-stab off and the g-safe off, then really push it and try to ride the edge of not quite blacking out, and also sliding around things."
-    },
-    {
       "title": "Shared organization hangars",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -2373,24 +2380,29 @@
         "We've got a pretty cool and obvious place for everyone's name, so I guess it's not necessarily going to be something that's hidden, you'll just have to go and visit is, and it's in a pretty important area, a monument"
     },
     {
+      "title": "G-safe mode",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": ["https://youtu.be/_9zJm8pK48E?t=124"],
+      "quote":
+        "If you put the safety modes on, you won't be able to push the edges as much, so I would expect that the harder core racers would really push the edge, maybe turn com-stab off and the g-safe off, then really push it and try to ride the edge of not quite blacking out, and also sliding around things."
+    },
+    {
+      "title": "Character collaboration with Warhorse Studios",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://youtu.be/_9zJm8pK48E?t=6m32s",
+        "https://youtu.be/PbTQWmXFuM0?t=114"
+      ]
+    },
+    {
       "title": "Web based Known Universe Map",
       "category": "Promo",
       "status": "Completed",
       "tags": ["Official Stretch Goal"],
       "quote":
         "The platform web team priority will be shifted to making the Known Universe Map available."
-    },
-    {
-      "title": "Nothing in-game you can only buy with real money",
-      "category": "Shop",
-      "status": "Compromised",
-      "sources": [
-        "https://youtu.be/HKcVI1rNz44?t=645",
-        "https://forums.robertsspaceindustries.com/discussion/230401/speaking-about-things-exclusive-to-backers",
-        "https://i.imgur.com/UpPwOjp.png"
-      ],
-      "quote":
-        "The philosophy of the game is that there is nothing in the game that you can only buy with money. You can earn everything playing the game"
     },
     {
       "title": "Player generated missions",
@@ -2443,6 +2455,18 @@
       "sources": ["https://youtu.be/HKcVI1rNz44?t=1407"],
       "quote":
         "We'll build it all up, but we won't announce it. We would open up an area of space, and one of the first players that would discover that jump point and go through it would actually encounter this alien race for the first time."
+    },
+    {
+      "title": "Nothing in-game you can only buy with real money",
+      "category": "Shop",
+      "status": "Compromised",
+      "sources": [
+        "https://youtu.be/HKcVI1rNz44?t=645",
+        "https://forums.robertsspaceindustries.com/discussion/230401/speaking-about-things-exclusive-to-backers",
+        "https://i.imgur.com/UpPwOjp.png"
+      ],
+      "quote":
+        "The philosophy of the game is that there is nothing in the game that you can only buy with money. You can earn everything playing the game"
     },
     {
       "title": "Updated Scanning Software",
@@ -2553,24 +2577,10 @@
         "Maybe that's the sort of stuff that can only happen in the unregulated border worlds, wherein you couldn't do that in the UEE say on Earth or on Terra because on Terra, you would have to go through an official broker, and then you can't cheat in that case. "
     },
     {
-      "title": "Server authoritative",
-      "category": "Engine",
-      "status": "In alpha",
-      "sources": ["https://youtu.be/JMkePHE94-I?t=794"],
-      "quote":
-        "So we're a server authoriative model, which helps, but we have limited client trust."
-    },
-    {
       "title": "Ship Trade-in and buying used ships",
       "category": "Mechanics",
       "status": "Not implemented",
       "sources": ["http://youtu.be/JMkePHE94-I?t=5m26s"]
-    },
-    {
-      "title": "Missions that span both space and ground",
-      "category": "Levels",
-      "status": "In alpha",
-      "sources": ["http://youtu.be/JMkePHE94-I?t=9m27s"]
     },
     {
       "title": "Combined arms missions",
@@ -2596,6 +2606,20 @@
       "sources": ["https://youtu.be/JMkePHE94-I?t=1019"],
       "quote":
         "You can click here and say you attack here, or you defend this person, and essentially you'll be tasking instructions and orders out to the ships. If they're NPC runned, then obviously the NPCs will obey you"
+    },
+    {
+      "title": "Server authoritative",
+      "category": "Engine",
+      "status": "In alpha",
+      "sources": ["https://youtu.be/JMkePHE94-I?t=794"],
+      "quote":
+        "So we're a server authoriative model, which helps, but we have limited client trust."
+    },
+    {
+      "title": "Missions that span both space and ground",
+      "category": "Levels",
+      "status": "In alpha",
+      "sources": ["http://youtu.be/JMkePHE94-I?t=9m27s"]
     },
     {
       "title": "Hadesian Artifact",
@@ -2625,14 +2649,6 @@
       ]
     },
     {
-      "title": "Collision damage",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": ["https://youtu.be/JMkePHE94-I?t=257"],
-      "quote":
-        "There definitely is collision in the dogfighting and you do sustain damage."
-    },
-    {
       "title": "Ship cleanliness and deterioration",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -2650,17 +2666,6 @@
       "sources": ["https://youtu.be/ZrKQn8u3gGk?t=145"],
       "quote":
         "after a period of time, which I guess we'll determine, you would hit whatever the equivalent of the escape key is which would basically say 'Ok, I'm done now, I'm ready to be respawned back on my closest friendly planet or last location I was on. Then we'll cut to an in-game cinematic with you getting rescued by search and recovery or something like that."
-    },
-    {
-      "title": "Asteroid rings",
-      "category": "Levels",
-      "status": "In alpha",
-      "sources": [
-        "https://youtu.be/ZrKQn8u3gGk?t=406",
-        "https://youtu.be/VdY7OXDWBYg?t=30"
-      ],
-      "quote":
-        "they're really always going to be in a ring or some broken up ring around the central star."
     },
     {
       "title": "Squadron 42: Fully voice acted",
@@ -2682,26 +2687,23 @@
         "it would be a nice gameplay element that would encourage people to try and recover either the wounded or incapacitated bodies of friends to get them back."
     },
     {
-      "title": "Light armor",
-      "category": "Assets",
+      "title": "Asteroid rings",
+      "category": "Levels",
       "status": "In alpha",
       "sources": [
-        "https://youtu.be/joKjDdKcOMQ?t=810",
-        "https://youtu.be/SL3-Z4OPWis?t=2189"
+        "https://youtu.be/ZrKQn8u3gGk?t=406",
+        "https://youtu.be/VdY7OXDWBYg?t=30"
       ],
       "quote":
-        "But the rule is essentially light or below to be piloting the small fighter ships, and then if there are bigger ships we might see medium armour or heavy, titan armour I doubt you'd be able to sit down and pilot ships in it."
+        "they're really always going to be in a ring or some broken up ring around the central star."
     },
     {
-      "title": "Medium Armor",
-      "category": "Assets",
-      "status": "In alpha",
-      "sources": [
-        "https://youtu.be/joKjDdKcOMQ?t=810",
-        "https://youtu.be/SL3-Z4OPWis?t=2189"
-      ],
+      "title": "Collision damage",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": ["https://youtu.be/JMkePHE94-I?t=257"],
       "quote":
-        "But the rule is essentially light or below to be piloting the small fighter ships, and then if there are bigger ships we might see medium armour or heavy, titan armour I doubt you'd be able to sit down and pilot ships in it."
+        "There definitely is collision in the dogfighting and you do sustain damage."
     },
     {
       "title": "Bribe NPCs",
@@ -2731,17 +2733,33 @@
         "But the rule is essentially light or below to be piloting the small fighter ships, and then if there are bigger ships we might see medium armour or heavy, titan armour I doubt you'd be able to sit down and pilot ships in it."
     },
     {
+      "title": "Light armor",
+      "category": "Assets",
+      "status": "In alpha",
+      "sources": [
+        "https://youtu.be/joKjDdKcOMQ?t=810",
+        "https://youtu.be/SL3-Z4OPWis?t=2189"
+      ],
+      "quote":
+        "But the rule is essentially light or below to be piloting the small fighter ships, and then if there are bigger ships we might see medium armour or heavy, titan armour I doubt you'd be able to sit down and pilot ships in it."
+    },
+    {
+      "title": "Medium Armor",
+      "category": "Assets",
+      "status": "In alpha",
+      "sources": [
+        "https://youtu.be/joKjDdKcOMQ?t=810",
+        "https://youtu.be/SL3-Z4OPWis?t=2189"
+      ],
+      "quote":
+        "But the rule is essentially light or below to be piloting the small fighter ships, and then if there are bigger ships we might see medium armour or heavy, titan armour I doubt you'd be able to sit down and pilot ships in it."
+    },
+    {
       "title": "Banu Merchantman",
       "category": "Ships",
       "status": "Not implemented",
       "tags": ["Official Stretch Goal"],
       "sources": ["https://t.co/gJDCwF4uY3"]
-    },
-    {
-      "title": "Detailed procedural ship destruction for large ships",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": ["http://youtu.be/vRR1eIGnT04?t=17m53s"]
     },
     {
       "title": "Taxes within Organizations",
@@ -2777,10 +2795,10 @@
         "We actually do have, whether you want to call it money sinks, I call it running costs, of things like repairing your ship, keeping up to date, we have taxes in the form of landing fees or trade tariffs depending on where you are."
     },
     {
-      "title": "Procedural Generation R&D Team",
-      "category": "Engine",
+      "title": "Detailed procedural ship destruction for large ships",
+      "category": "Mechanics",
       "status": "Completed",
-      "sources": ["http://youtu.be/2jcCwDs2rbw?t=5m26s"]
+      "sources": ["http://youtu.be/vRR1eIGnT04?t=17m53s"]
     },
     {
       "title": "Dynamic population count",
@@ -2789,18 +2807,10 @@
       "sources": ["http://youtu.be/2jcCwDs2rbw?t=7m44s"]
     },
     {
-      "title": "In depth non-FTL communication",
-      "category": "Mechanics",
-      "status": "Broken",
-      "sources": [
-        "http://youtu.be/Q4OB9Yfo-0Q?t=2m55s",
-        "http://youtu.be/PCG4dZ1mYRw?t=7m50s",
-        "https://youtu.be/RSWDk8K46CI?t=121",
-        "http://imperialnews.network/2016/11/faster-than-light-communications-in-star-citizen/",
-        "https://youtu.be/7sCTnlihzEY?t=691"
-      ],
-      "quote":
-        "The way that the communications are gonna work is that it travels our in-fiction communication's speed. Which means that when you're in-system and someone beams a message, it gets beamed at the speed of light, and it gets beamed to a relay station, or a message station. This is in the structured universe where the UEE runs it and there's a lot of infrastructure. So one of these stations is right by a jump point so it gets all the information and then it will launch out a message drone or a messenger ship. It goes through the jump point to the other side, where there's probably another relay station, it's collected, then the data gets beamed across to another relay station and so-on and so-forth if it has to go multiple systems."
+      "title": "Procedural Generation R&D Team",
+      "category": "Engine",
+      "status": "Completed",
+      "sources": ["http://youtu.be/2jcCwDs2rbw?t=5m26s"]
     },
     {
       "title": "Hireable NPCs",
@@ -2846,6 +2856,20 @@
         "https://robertsspaceindustries.com/comm-link/transmission/13812-Letter-From-The-Chairman-42-Million",
         "http://starcitizen.wikia.com/wiki/Observist_Guide"
       ]
+    },
+    {
+      "title": "In depth non-FTL communication",
+      "category": "Mechanics",
+      "status": "Broken",
+      "sources": [
+        "http://youtu.be/Q4OB9Yfo-0Q?t=2m55s",
+        "http://youtu.be/PCG4dZ1mYRw?t=7m50s",
+        "https://youtu.be/RSWDk8K46CI?t=121",
+        "http://imperialnews.network/2016/11/faster-than-light-communications-in-star-citizen/",
+        "https://youtu.be/7sCTnlihzEY?t=691"
+      ],
+      "quote":
+        "The way that the communications are gonna work is that it travels our in-fiction communication's speed. Which means that when you're in-system and someone beams a message, it gets beamed at the speed of light, and it gets beamed to a relay station, or a message station. This is in the structured universe where the UEE runs it and there's a lot of infrastructure. So one of these stations is right by a jump point so it gets all the information and then it will launch out a message drone or a messenger ship. It goes through the jump point to the other side, where there's probably another relay station, it's collected, then the data gets beamed across to another relay station and so-on and so-forth if it has to go multiple systems."
     },
     {
       "title": "Linux Support",
@@ -2960,18 +2984,6 @@
       "sources": ["https://youtu.be/IIkeFs5xubw?t=543"]
     },
     {
-      "title": "Take advantage of multi-core processors",
-      "category": "Engine",
-      "status": "Completed",
-      "sources": ["http://youtu.be/-3KIcnKf3O0?t=8m38s"]
-    },
-    {
-      "title": "Players test the alpha version",
-      "category": "Promo",
-      "status": "Completed",
-      "sources": ["https://youtu.be/-3KIcnKf3O0?t=308"]
-    },
-    {
       "title": "Benefits for ejecting from a ship about to explode",
       "category": "Mechanics",
       "status": "Not implemented",
@@ -3011,14 +3023,16 @@
         "I think we'd let people design their own costumes for their characters."
     },
     {
-      "title":
-        "Seemlessly fly from space to planet surface (not on initial release)",
-      "category": "Mechanics",
+      "title": "Take advantage of multi-core processors",
+      "category": "Engine",
       "status": "Completed",
-      "sources": [
-        "https://youtu.be/ItuiYF_lRGc?t=885",
-        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q765a/"
-      ]
+      "sources": ["http://youtu.be/-3KIcnKf3O0?t=8m38s"]
+    },
+    {
+      "title": "Players test the alpha version",
+      "category": "Promo",
+      "status": "Completed",
+      "sources": ["https://youtu.be/-3KIcnKf3O0?t=308"]
     },
     {
       "title": "In-game voice communication",
@@ -3046,12 +3060,13 @@
       "sources": ["https://youtu.be/ItuiYF_lRGc?t=80"]
     },
     {
-      "title": "Wreck exploration",
+      "title":
+        "Seemlessly fly from space to planet surface (not on initial release)",
       "category": "Mechanics",
-      "status": "In alpha",
+      "status": "Completed",
       "sources": [
-        "http://youtu.be/0pxlhEUFUPw?t=20m44s",
-        "https://www.youtube.com/watch?v=GHJvxpwrZTA"
+        "https://youtu.be/ItuiYF_lRGc?t=885",
+        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q765a/"
       ]
     },
     {
@@ -3071,16 +3086,25 @@
       ]
     },
     {
+      "title": "Wreck exploration",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "http://youtu.be/0pxlhEUFUPw?t=20m44s",
+        "https://www.youtube.com/watch?v=GHJvxpwrZTA"
+      ]
+    },
+    {
       "title": "Engine Tuning Kit",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "tags": ["Official Stretch Goal"],
       "sources": ["https://robertsspaceindustries.com/funding-goals"]
     },
     {
       "title": "Explorer-class mobiGlas Rig",
       "category": "Assets",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "tags": ["Official Stretch Goal"],
       "sources": [
         "https://robertsspaceindustries.com/comm-link/transmission/13626-Letter-From-The-Chairman-40-Million",
@@ -3088,27 +3112,13 @@
       ]
     },
     {
-      "title": "Bug tracking feedback system",
-      "category": "Promo",
-      "status": "Completed",
-      "sources": [
-        "https://youtu.be/Q4OB9Yfo-0Q?t=987",
-        "https://robertsspaceindustries.com/community/issue-council/star-citizen-alpha?sort=newest"
-      ]
-    },
-    {
-      "title": "Intelligent Flight Control System (IFCS)",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": ["https://youtu.be/Q4OB9Yfo-0Q?t=451"]
-    },
-    {
       "title": "Tractor beams",
       "category": "Mechanics",
       "status": "Stagnant",
       "sources": [
         "https://youtu.be/FXnNwUmnl3o?t=569",
-        "https://youtu.be/Q4OB9Yfo-0Q?t=11m19s"
+        "https://youtu.be/Q4OB9Yfo-0Q?t=11m19s",
+        "https://youtu.be/ydQhJPPcSYA?t=290"
       ],
       "quote": "Well the tractor beam isn't implemented yet"
     },
@@ -3138,12 +3148,28 @@
       "sources": ["https://youtu.be/Q4OB9Yfo-0Q?t=1117"]
     },
     {
+      "title": "Intelligent Flight Control System (IFCS)",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": ["https://youtu.be/Q4OB9Yfo-0Q?t=451"]
+    },
+    {
+      "title": "Bug tracking feedback system",
+      "category": "Promo",
+      "status": "Completed",
+      "sources": [
+        "https://youtu.be/Q4OB9Yfo-0Q?t=987",
+        "https://robertsspaceindustries.com/community/issue-council/star-citizen-alpha?sort=newest"
+      ]
+    },
+    {
       "title": "Inertia on objects not anchored down",
       "category": "Mechanics",
       "status": "Stagnant",
       "sources": [
         "https://youtu.be/wE_xZdeakEw?t=723",
-        "http://youtu.be/-y0GQV_Bx4U?t=12m34s"
+        "http://youtu.be/-y0GQV_Bx4U?t=12m34s",
+        "https://youtu.be/WWOfwijbJTQ?t=276"
       ]
     },
     {
@@ -3170,33 +3196,6 @@
       "category": "Mechanics",
       "status": "Stagnant",
       "sources": ["http://youtu.be/wE_xZdeakEw?t=14m11s"]
-    },
-    {
-      "title":
-        "Support for Enhanced Subpixel Morphological Antialiasing (SMAA)",
-      "category": "Engine",
-      "status": "Broken",
-      "sources": [
-        "https://youtu.be/-y0GQV_Bx4U?t=698",
-        "https://forums.robertsspaceindustries.com/discussion/309347/smaa-antialiasing",
-        "https://forums.robertsspaceindustries.com/discussion/52741/anti-aliasing-support"
-      ]
-    },
-    {
-      "title": "Manned turrets",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": [
-        "https://youtu.be/-y0GQV_Bx4U?t=310",
-        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzmg4/"
-      ],
-      "quote": "A Class-5 turret and above are manned turrets"
-    },
-    {
-      "title": "Unmanned turrets",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": ["https://youtu.be/-y0GQV_Bx4U?t=310"]
     },
     {
       "title": "Relaying radar information to C&C Center",
@@ -3232,15 +3231,6 @@
       "sources": ["https://youtu.be/-y0GQV_Bx4U?t=170"]
     },
     {
-      "title": "Spaceports",
-      "category": "Levels",
-      "status": "In alpha",
-      "sources": [
-        "https://youtu.be/-y0GQV_Bx4U?t=242",
-        "https://www.twitch.tv/videos/203592426?t=02h43m20s"
-      ]
-    },
-    {
       "title": "Alien Spaceports",
       "category": "Levels",
       "status": "Stagnant",
@@ -3271,11 +3261,40 @@
       "sources": ["https://youtu.be/-y0GQV_Bx4U?t=877"]
     },
     {
-      "title":
-        "CIG will not ask Youtube to take down Star Citizen related videos",
-      "category": "Promo",
+      "title": "Spaceports",
+      "category": "Levels",
+      "status": "In alpha",
+      "sources": [
+        "https://youtu.be/-y0GQV_Bx4U?t=242",
+        "https://www.twitch.tv/videos/203592426?t=02h43m20s"
+      ]
+    },
+    {
+      "title": "Manned turrets",
+      "category": "Mechanics",
       "status": "Completed",
-      "sources": ["https://youtu.be/NcRxuvQT3Ew?t=26"]
+      "sources": [
+        "https://youtu.be/-y0GQV_Bx4U?t=310",
+        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzmg4/"
+      ],
+      "quote": "A Class-5 turret and above are manned turrets"
+    },
+    {
+      "title": "Unmanned turrets",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": ["https://youtu.be/-y0GQV_Bx4U?t=310"]
+    },
+    {
+      "title":
+        "Support for Enhanced Subpixel Morphological Antialiasing (SMAA)",
+      "category": "Engine",
+      "status": "Broken",
+      "sources": [
+        "https://youtu.be/-y0GQV_Bx4U?t=698",
+        "https://forums.robertsspaceindustries.com/discussion/309347/smaa-antialiasing",
+        "https://forums.robertsspaceindustries.com/discussion/52741/anti-aliasing-support"
+      ]
     },
     {
       "title": "Immersive haggling with NPCs",
@@ -3348,25 +3367,11 @@
       ]
     },
     {
-      "title": "Some ships have artificial gravity",
-      "category": "Mechanics",
+      "title":
+        "CIG will not ask Youtube to take down Star Citizen related videos",
+      "category": "Promo",
       "status": "Completed",
-      "sources": [
-        "http://youtu.be/RtyZzO5OrE0?t=5m56s",
-        "https://www.youtube.com/watch?v=8WIIiZWyRt8",
-        "https://www.youtube.com/watch?v=ysl_h2feGOs",
-        "https://web.archive.org/web/20170701101137/https://robertsspaceindustries.com/comm-link/spectrum-dispatch/14287-LORE-BUILDER-TWENTY-ONE-ARTIFICIAL-GRAVITY"
-      ]
-    },
-    {
-      "title": "Ship subsystem energy manipulation",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "http://youtu.be/RtyZzO5OrE0?t=9m10s",
-        "http://youtu.be/RpHGEtOXFvE?t=16m12s",
-        "http://youtu.be/VK4wHImGNAQ?t=18m21s"
-      ]
+      "sources": ["https://youtu.be/NcRxuvQT3Ew?t=26"]
     },
     {
       "title": "Playing as another alien race",
@@ -3421,6 +3426,27 @@
       "category": "NPCs",
       "status": "Stagnant",
       "sources": ["https://youtu.be/RtyZzO5OrE0?t=647"]
+    },
+    {
+      "title": "Ship subsystem energy manipulation",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "http://youtu.be/RtyZzO5OrE0?t=9m10s",
+        "http://youtu.be/RpHGEtOXFvE?t=16m12s",
+        "http://youtu.be/VK4wHImGNAQ?t=18m21s"
+      ]
+    },
+    {
+      "title": "Some ships have artificial gravity",
+      "category": "Mechanics",
+      "status": "Completed",
+      "sources": [
+        "http://youtu.be/RtyZzO5OrE0?t=5m56s",
+        "https://www.youtube.com/watch?v=8WIIiZWyRt8",
+        "https://www.youtube.com/watch?v=ysl_h2feGOs",
+        "https://web.archive.org/web/20170701101137/https://robertsspaceindustries.com/comm-link/spectrum-dispatch/14287-LORE-BUILDER-TWENTY-ONE-ARTIFICIAL-GRAVITY"
+      ]
     },
     {
       "title": "Short range voice communication and ship hailing",
@@ -3497,6 +3523,33 @@
       ]
     },
     {
+      "title": "Vanduul in persistant universe",
+      "category": "NPCs",
+      "status": "Stagnant"
+    },
+    {
+      "title": "Constellation multicrew",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/transmission/14354-Letter-From-The-Chairman",
+        "https://youtu.be/LEm7yKG5x_I?t=276"
+      ],
+      "quote":
+        "we’re going to tell you about Star Citizen’s multi-crew ship seat actions. With the release of the Carrack, there has been a lot of discussion about how ships can be flown solo, whether or not they need a crew… and there have been a lot of questions as to how any of that will even work."
+    },
+    {
+      "title": "RSI Museum",
+      "category": "Promo",
+      "status": "Compromised",
+      "tags": ["Kickstarter Stretch Goal"],
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/transmission/13266-Letter-From-The-Chairman-19-Million",
+        "https://robertsspaceindustries.com/comm-link/spectrum-dispatch/14501-RSI-Museum-Underworld-1-2",
+        "https://forums.robertsspaceindustries.com/discussion/117024/what-is-where-is-the-rsi-museum"
+      ]
+    },
+    {
       "title": "Enhanced Alpha (Regional Servers)",
       "category": "Engine",
       "status": "Completed",
@@ -3562,28 +3615,6 @@
         "one of the reasons why we're moving to double precision on the system, so that we don't really have the same kind of position issues that we have in floating point."
     },
     {
-      "title": "RSI Museum",
-      "category": "Promo",
-      "status": "Compromised",
-      "tags": ["Kickstarter Stretch Goal"],
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/transmission/13266-Letter-From-The-Chairman-19-Million",
-        "https://robertsspaceindustries.com/comm-link/spectrum-dispatch/14501-RSI-Museum-Underworld-1-2",
-        "https://forums.robertsspaceindustries.com/discussion/117024/what-is-where-is-the-rsi-museum"
-      ]
-    },
-    {
-      "title": "Constellation multicrew",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/transmission/14354-Letter-From-The-Chairman",
-        "https://youtu.be/LEm7yKG5x_I?t=276"
-      ],
-      "quote":
-        "we’re going to tell you about Star Citizen’s multi-crew ship seat actions. With the release of the Carrack, there has been a lot of discussion about how ships can be flown solo, whether or not they need a crew… and there have been a lot of questions as to how any of that will even work."
-    },
-    {
       "title": "Planet day/night cycle",
       "category": "Levels",
       "status": "Completed",
@@ -3591,11 +3622,6 @@
         "http://youtu.be/w5M5DXzcMmg?t=3m42s",
         "https://www.youtube.com/watch?v=HEa7u7hf3Ro"
       ]
-    },
-    {
-      "title": "Vanduul in persistant universe",
-      "category": "NPCs",
-      "status": "Stagnant"
     },
     {
       "title": "Origin M50",
@@ -3607,10 +3633,10 @@
       ]
     },
     {
-      "title": "Chat shared between Hangar and transfer to Arena Commander",
+      "title": "Co-Op in Arena Commander when bigger ships are added",
       "category": "Mechanics",
-      "status": "Broken",
-      "sources": ["https://youtu.be/gmevVmaLizw?t=200"]
+      "status": "Stagnant",
+      "sources": ["https://youtu.be/gmevVmaLizw?t=95"]
     },
     {
       "title": "Arena Commander starts as 20 cubic kilometers",
@@ -3625,35 +3651,10 @@
       "sources": ["https://youtu.be/gmevVmaLizw?t=431"]
     },
     {
-      "title": "Co-Op in Arena Commander when bigger ships are added",
+      "title": "Chat shared between Hangar and transfer to Arena Commander",
       "category": "Mechanics",
-      "status": "Stagnant",
-      "sources": ["https://youtu.be/gmevVmaLizw?t=95"]
-    },
-    {
-      "title": "Angle penetration damage",
-      "category": "Engine",
       "status": "Broken",
-      "sources": ["https://youtu.be/qwbU9FG5XlQ"],
-      "quote":
-        "So there will definitely be the angle of incidence of a projectile hitting armor and ship will count in terms of the damage, the penetration ability, all that."
-    },
-    {
-      "title": "Arena Commander to use multiplayer backend",
-      "category": "Engine",
-      "status": "Completed",
-      "sources": ["https://youtu.be/qwbU9FG5XlQ?t=218"]
-    },
-    {
-      "title": "Realistic ship damage",
-      "category": "Mechanics",
-      "status": "In alpha",
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/engineering/15062-Ship-Repair-And-Maintenance",
-        "https://robertsspaceindustries.com/comm-link/engineering/14568-Design-Notes-New-Damage-System",
-        "https://youtu.be/qwbU9FG5XlQ?t=645",
-        "http://youtu.be/j0m_RZgB61E?t=54s"
-      ]
+      "sources": ["https://youtu.be/gmevVmaLizw?t=200"]
     },
     {
       "title": "Hired NPCs can fly in your wing",
@@ -3668,6 +3669,61 @@
       "sources": [
         "https://youtu.be/qwbU9FG5XlQ?t=176",
         "https://youtu.be/-3KIcnKf3O0?t=49"
+      ]
+    },
+    {
+      "title": "Realistic ship damage",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link/engineering/15062-Ship-Repair-And-Maintenance",
+        "https://robertsspaceindustries.com/comm-link/engineering/14568-Design-Notes-New-Damage-System",
+        "https://youtu.be/qwbU9FG5XlQ?t=645",
+        "http://youtu.be/j0m_RZgB61E?t=54s"
+      ]
+    },
+    {
+      "title": "Arena Commander to use multiplayer backend",
+      "category": "Engine",
+      "status": "Completed",
+      "sources": ["https://youtu.be/qwbU9FG5XlQ?t=218"]
+    },
+    {
+      "title": "Angle penetration damage",
+      "category": "Engine",
+      "status": "Broken",
+      "sources": ["https://youtu.be/qwbU9FG5XlQ"],
+      "quote":
+        "So there will definitely be the angle of incidence of a projectile hitting armor and ship will count in terms of the damage, the penetration ability, all that."
+    },
+    {
+      "title":
+        "Radar shadow a feature of detecting and identifying other ships",
+      "category": "Mechanics",
+      "status": "Stagnant",
+      "sources": ["https://youtu.be/QACEabB_8lA?t=211"]
+    },
+    {
+      "title": "PvP slider taken into matchmaking criteria",
+      "category": "Mechanics",
+      "status": "Stagnant",
+      "sources": [
+        "https://youtu.be/QACEabB_8lA?t=394",
+        "https://youtu.be/Q4OB9Yfo-0Q?t=358",
+        "https://youtu.be/g4UaUmJ8Ho8?t=294",
+        "https://youtu.be/09Naeu3HuxY?t=474"
+      ],
+      "quote":
+        "Ok so the PvP slider is an input to the game's matchmaking system to give it a hint of kind of like who it should be matching you with."
+    },
+    {
+      "title":
+        "CIG is 100% focused on Star Citizen and will not start any other projects",
+      "category": "Promo",
+      "status": "In alpha",
+      "sources": [
+        "https://youtu.be/QACEabB_8lA?t=117",
+        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9jci/"
       ]
     },
     {
@@ -3689,36 +3745,6 @@
         "http://scqa.info/?show=10FTC&episode=1&qid=9",
         "https://robertsspaceindustries.com/comm-link/engineering/14559-WIP-ArcCorp"
       ]
-    },
-    {
-      "title":
-        "CIG is 100% focused on Star Citizen and will not start any other projects",
-      "category": "Promo",
-      "status": "In alpha",
-      "sources": [
-        "https://youtu.be/QACEabB_8lA?t=117",
-        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9jci/"
-      ]
-    },
-    {
-      "title":
-        "Radar shadow a feature of detecting and identifying other ships",
-      "category": "Mechanics",
-      "status": "Stagnant",
-      "sources": ["https://youtu.be/QACEabB_8lA?t=211"]
-    },
-    {
-      "title": "PvP slider taken into matchmaking criteria",
-      "category": "Mechanics",
-      "status": "Stagnant",
-      "sources": [
-        "https://youtu.be/QACEabB_8lA?t=394",
-        "https://youtu.be/Q4OB9Yfo-0Q?t=358",
-        "https://youtu.be/g4UaUmJ8Ho8?t=294",
-        "https://youtu.be/09Naeu3HuxY?t=474"
-      ],
-      "quote":
-        "Ok so the PvP slider is an input to the game's matchmaking system to give it a hint of kind of like who it should be matching you with."
     },
     {
       "title": "Squadron 42: Enhanced Mission Design",
@@ -3903,16 +3929,6 @@
       ]
     },
     {
-      "title":
-        "Behind the Scenes of Star Citizen (Professional feature length documentary)",
-      "category": "Promo",
-      "status": "Broken",
-      "tags": ["Official Stretch Goal"],
-      "sources": [
-        "https://www.facebook.com/215475438505750/photos/a.429027047150587.107566.215475438505750/998323386887614/"
-      ]
-    },
-    {
       "title": "Fourth landout option on Earth",
       "category": "Levels",
       "status": "Stagnant",
@@ -3924,10 +3940,14 @@
         "We will also be putting together a professional-quality “Behind the Scenes of Star Citizen” documentary and adding the much-discussed fourth land out option on Earth (city TBA.)"
     },
     {
-      "title": "Procedural Generation R&D Team",
+      "title":
+        "Behind the Scenes of Star Citizen (Professional feature length documentary)",
       "category": "Promo",
-      "status": "Completed",
-      "tags": ["Official Stretch Goal"]
+      "status": "Broken",
+      "tags": ["Official Stretch Goal"],
+      "sources": [
+        "https://www.facebook.com/215475438505750/photos/a.429027047150587.107566.215475438505750/998323386887614/"
+      ]
     },
     {
       "title": "Tiber system",
@@ -3949,13 +3969,20 @@
       ]
     },
     {
+      "title": "Procedural Generation R&D Team",
+      "category": "Promo",
+      "status": "Completed",
+      "tags": ["Official Stretch Goal"]
+    },
+    {
       "title": "Accurate physics system",
       "category": "Engine",
       "status": "In alpha",
       "sources": [
         "https://robertsspaceindustries.com/comm-link/transmission/12741-Physics-Not-A-Dirty-Word",
         "https://youtu.be/FXnNwUmnl3o?t=569",
-        "https://www.youtube.com/watch?v=VDQAYWMx2rY"
+        "https://www.youtube.com/watch?v=VDQAYWMx2rY",
+        "https://clips.twitch.tv/EmpathicMoralHornetVoteNay"
       ]
     },
     {
@@ -4029,6 +4056,17 @@
       "sources": ["http://starcitizen.wikia.com/wiki/List_of_star_systems"]
     },
     {
+      "title": "Female player character",
+      "category": "Assets",
+      "status": "Stagnant",
+      "sources": [
+        "https://giant.gfycat.com/LeanPoisedJohndory.gif",
+        "https://www.youtube.com/watch?v=Jzde-PSVvcE",
+        "https://youtu.be/qE7TFnSl9y4?t=126",
+        "https://youtu.be/j02lrXo3fXA?t=1603"
+      ]
+    },
+    {
       "title": "Capture Backers faces for ingame characters",
       "category": "MoCap",
       "status": "Completed",
@@ -4064,17 +4102,6 @@
       "tags": ["Official Stretch Goal"],
       "sources": [
         "http://starcitizen.wikia.com/wiki/Stretch_goals#cite_ref-ID13284_13-0"
-      ]
-    },
-    {
-      "title": "Female player character",
-      "category": "Assets",
-      "status": "Stagnant",
-      "sources": [
-        "https://giant.gfycat.com/LeanPoisedJohndory.gif",
-        "https://www.youtube.com/watch?v=Jzde-PSVvcE",
-        "https://youtu.be/qE7TFnSl9y4?t=126",
-        "https://youtu.be/j02lrXo3fXA?t=1603"
       ]
     },
     {
@@ -4187,6 +4214,32 @@
         "RSI Site|There is an additional bonus of being able to specify one of your Game Character NPC crewmembers as your successor in the event of your main characters death (See Death of a Spaceman), at which point the Game Character NPC will become playable again, with the assets of your deceased old character conveying."
     },
     {
+      "title": "RSI Constellation",
+      "category": "Ships",
+      "status": "Stagnant",
+      "sources": [
+        "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila"
+      ]
+    },
+    {
+      "title": "Hibernation Mode",
+      "category": "Mechanics",
+      "status": "Stagnant",
+      "tags": ["Official Stretch Goal"],
+      "sources": [
+        "https://robertsspaceindustries.com/comm-link//13130-Thank-You",
+        "https://robertsspaceindustries.com/funding-goals"
+      ]
+    },
+    {
+      "title": "Kruger Archimedes",
+      "category": "Ships",
+      "status": "Stagnant",
+      "sources": [
+        "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker"
+      ]
+    },
+    {
       "title": "Wingman's Hangar (webcasts)",
       "category": "Promo",
       "status": "Completed",
@@ -4247,40 +4300,71 @@
       ]
     },
     {
-      "title": "RSI Constellation",
-      "category": "Ships",
-      "status": "Stagnant",
-      "sources": [
-        "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila"
-      ]
-    },
-    {
-      "title": "Hibernation Mode",
-      "category": "Mechanics",
-      "status": "Stagnant",
-      "tags": ["Official Stretch Goal"],
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link//13130-Thank-You",
-        "https://robertsspaceindustries.com/funding-goals"
-      ]
-    },
-    {
-      "title": "Kruger Archimedes",
-      "category": "Ships",
-      "status": "Stagnant",
-      "sources": [
-        "https://robertsspaceindustries.com/pledge/ships/anvil-hornet/F7C-R-Hornet-Tracker"
-      ]
-    },
-    {
       "title": "Anvil Terrapin",
       "category": "Ships",
-      "status": "Stagnant",
+      "status": "Completed",
       "sources": [
         "https://robertsspaceindustries.com/pledge/ships/terrapin/Terrapin",
         "http://starcitizen.wikia.com/wiki/Terrapin",
         "https://youtu.be/LEm7yKG5x_I?t=367"
       ]
+    },
+    {
+      "title": "Star Citizen novella written by Dave Haddock",
+      "category": "Shop",
+      "status": "Stagnant",
+      "sources": [
+        "https://robertsspaceindustries.com/pledge/Add-Ons/Star-Citizen-Novella"
+      ],
+      "quote":
+        "RSI Site|An all-new adventure in the Star Citizen universe from Dave Haddock, author of the Time Capsule and the Spectrum Dispatches."
+    },
+    {
+      "title": "Spaceship shaped USB stick",
+      "category": "Shop",
+      "status": "Stagnant",
+      "sources": [
+        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
+      ],
+      "quote":
+        "RSI Site|A 16 GB USB stick made in the shape of one of Star Citizen’s classic spacecraft designs. Store your copy of the game on it… or anything else!"
+    },
+    {
+      "title": "42 page book “Squadron 42 Manual” (Hardback)",
+      "category": "Shop",
+      "status": "Stagnant",
+      "sources": [
+        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
+      ],
+      "quote":
+        "RSI Site|The Squadron 42 manual will introduce you to the world of the Bengal-class carrier Steed."
+    },
+    {
+      "title": "42 page book “The Making of Star Citizen” (digital)",
+      "category": "Shop",
+      "status": "Stagnant",
+      "sources": [
+        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
+      ],
+      "quote":
+        "RSI Site|We’re living this story right now, and we’re taking pictures! Relive Star Citizen’s development, from the 10/10 announcement through the pledge campaign to the game’s development with this collection of concept art, design notes and stories… some of which you, the readers, will be helping to write over the next two years!"
+    },
+    {
+      "title": "42 page book “The Making of Star Citizen” (Hardback)",
+      "category": "Shop",
+      "status": "Stagnant",
+      "sources": [
+        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
+      ],
+      "quote":
+        "RSI Site|We’re living this story right now, and we’re taking pictures! Relive Star Citizen’s development, from the 10/10 announcement through the pledge campaign to the game’s development with this collection of concept art, design notes and stories… some of which you, the readers, will be helping to write over the next two years!"
+    },
+    {
+      "title": "No Subscriptions",
+      "category": "Promo",
+      "status": "Compromised",
+      "sources": ["http://archive.is/OLbEi#5%"],
+      "quote": "Kickstarter Campaign|Star Citizen is: No Subscriptions"
     },
     {
       "title": "Full color map of the game universe",
@@ -4337,61 +4421,13 @@
         "RSI Site|Learn the ins and outs of modding Star Citizens’ private servers with this helpful guide."
     },
     {
-      "title": "No Subscriptions",
+      "title": "Build the game backers are dreaming of",
       "category": "Promo",
-      "status": "Compromised",
-      "sources": ["http://archive.is/OLbEi#5%"],
-      "quote": "Kickstarter Campaign|Star Citizen is: No Subscriptions"
-    },
-    {
-      "title": "Star Citizen novella written by Dave Haddock",
-      "category": "Shop",
       "status": "Stagnant",
-      "sources": [
-        "https://robertsspaceindustries.com/pledge/Add-Ons/Star-Citizen-Novella"
-      ],
+      "tags": ["Pledge"],
+      "sources": ["https://robertsspaceindustries.com/the-pledge"],
       "quote":
-        "RSI Site|An all-new adventure in the Star Citizen universe from Dave Haddock, author of the Time Capsule and the Spectrum Dispatches."
-    },
-    {
-      "title": "Spaceship shaped USB stick",
-      "category": "Shop",
-      "status": "Stagnant",
-      "sources": [
-        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
-      ],
-      "quote":
-        "RSI Site|A 16 GB USB stick made in the shape of one of Star Citizen’s classic spacecraft designs. Store your copy of the game on it… or anything else!"
-    },
-    {
-      "title": "42 page book “Squadron 42 Manual” (Hardback)",
-      "category": "Shop",
-      "status": "Stagnant",
-      "sources": [
-        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
-      ],
-      "quote":
-        "RSI Site|The Squadron 42 manual will introduce you to the world of the Bengal-class carrier Steed."
-    },
-    {
-      "title": "42 page book “The Making of Star Citizen” (digital)",
-      "category": "Shop",
-      "status": "Stagnant",
-      "sources": [
-        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
-      ],
-      "quote":
-        "RSI Site|We’re living this story right now, and we’re taking pictures! Relive Star Citizen’s development, from the 10/10 announcement through the pledge campaign to the game’s development with this collection of concept art, design notes and stories… some of which you, the readers, will be helping to write over the next two years!"
-    },
-    {
-      "title": "42 page book “The Making of Star Citizen” (Hardback)",
-      "category": "Shop",
-      "status": "Stagnant",
-      "sources": [
-        "http://web.archive.org/web/20121126203456/http://www.robertsspaceindustries.com/add-ons/"
-      ],
-      "quote":
-        "RSI Site|We’re living this story right now, and we’re taking pictures! Relive Star Citizen’s development, from the 10/10 announcement through the pledge campaign to the game’s development with this collection of concept art, design notes and stories… some of which you, the readers, will be helping to write over the next two years!"
+        "Chris Roberts and the Cloud Imperium Team|We will build you the game you are dreaming about."
     },
     {
       "title": "No publisher",
@@ -4400,15 +4436,6 @@
       "sources": ["https://robertsspaceindustries.com/the-pledge"],
       "quote":
         "We, the Star Citizen team at Cloud Imperium, hereby promise to deliver the game you expect. You, the tens of thousands of pledgers, have allowed us to cut out the big publisher and build the game on our terms."
-    },
-    {
-      "title": "Build the game backers are dreaming of",
-      "category": "Promo",
-      "status": "Stagnant",
-      "tags": ["Pledge"],
-      "sources": ["https://robertsspaceindustries.com/the-pledge"],
-      "quote":
-        "Chris Roberts and the Cloud Imperium Team|We will build you the game you are dreaming about."
     },
     {
       "title": "Increased ship customization",
@@ -4460,12 +4487,6 @@
       ]
     },
     {
-      "title": "Aegis Retaliator",
-      "category": "Ships",
-      "status": "Completed",
-      "tags": ["Kickstarter Stretch Goal"]
-    },
-    {
       "title": "Additional base type: Smuggler's asteroid",
       "category": "Levels",
       "status": "Stagnant",
@@ -4475,6 +4496,12 @@
       ],
       "quote":
         "RSI Site|The asteroid bases will take on two forms: the first is active smugglers bases with trading and the seediest bars in the galaxy offering some of the most dangerous—and lucrative—missions outside the law. The second is secret supply depots that you can discover, raid and contest yourself."
+    },
+    {
+      "title": "Aegis Retaliator",
+      "category": "Ships",
+      "status": "Completed",
+      "tags": ["Kickstarter Stretch Goal"]
     },
     {
       "title": "Start with additional credits",
@@ -4492,69 +4519,6 @@
       ],
       "quote":
         "when people go down, they get wounded and they're bleeding out; now you can drag them to safety and you can fix them up"
-    },
-    {
-      "title":
-        "Star Citizens will receive access to the Squadron 42 campaign (18 months)",
-      "category": "Mechanics",
-      "status": "Broken",
-      "tags": ["Kickstarter Stretch Goal"],
-      "sources": ["http://archive.is/hJEIw"]
-    },
-    {
-      "title":
-        "Star Citizens will receive access to the Star Citizen universe for online persistent play (30 months)",
-      "category": "Mechanics",
-      "status": "Broken",
-      "tags": ["Kickstarter Stretch Goal"],
-      "sources": ["http://archive.is/hJEIw"]
-    },
-    {
-      "title": "100 Star Systems to explore on launch",
-      "category": "Levels",
-      "status": "Broken",
-      "tags": ["Kickstarter Stretch Goal"],
-      "sources": [
-        "https://www.kickstarter.com/projects/cig/star-citizen/posts/351977",
-        "http://starcitizen.wikia.com/wiki/Stretch_goals#.E2.80.9CHave_Starship_Will_Travel.E2.80.A6.E2.80.9D_.28Stretch_Goal_3.29",
-        "http://www.robertsspaceindustries.com/comprehensive-stretch-goals/",
-        "https://www.youtube.com/watch?v=VGTj2iWkS-8&t=14m14s",
-        "https://web.archive.org/web/20161001062026/http://www.gamersnexus.net/gg/2613-chris-roberts-on-star-citizen-procedural-planets-alpha3-citizencon"
-      ],
-      "quote":
-        "Just to let you know, when it says 100 complete star systems, we don't mean we're delivering 100 complete star systems tomorrow or all in one day because you know, we got to a bunch of our star systems in our stretch goals, and also some of these star systems are to be explored and found."
-    },
-    {
-      "title": "Regular community updates",
-      "category": "Promo",
-      "status": "Completed",
-      "tags": ["Kickstarter Stretch Goal"]
-    },
-    {
-      "title": "6 Degrees of Freedom",
-      "category": "Mechanics",
-      "status": "Completed",
-      "tags": ["noclip"],
-      "sources": ["https://youtu.be/y4wAP1fWe8c?t=709"],
-      "quote":
-        "We are definitely going to be doing a full 6 degrees of freedom control mode"
-    },
-    {
-      "title": "Professional motion capture shoot",
-      "category": "MoCap",
-      "status": "Completed",
-      "sources": ["https://youtu.be/ZrKQn8u3gGk?t=695"],
-      "quote": "We're gonna do a full motion capture performance capture"
-    },
-    {
-      "title": "Using inertia for flight rather than burning fuel all the time",
-      "category": "Mechanics",
-      "status": "Completed",
-      "sources": [
-        "https://youtu.be/-3KIcnKf3O0?t=618",
-        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uwzxk/",
-        "https://www.youtube.com/watch?v=OeItEJPb5jE"
-      ]
     },
     {
       "title": "Squadron 42: Celebrity voice-acting",
@@ -4640,23 +4604,67 @@
       ]
     },
     {
-      "title": "Only one ingame currency",
-      "category": "Economy",
+      "title": "Regular community updates",
+      "category": "Promo",
+      "status": "Completed",
+      "tags": ["Kickstarter Stretch Goal"]
+    },
+    {
+      "title": "6 Degrees of Freedom",
+      "category": "Mechanics",
+      "status": "Completed",
+      "tags": ["noclip"],
+      "sources": ["https://youtu.be/y4wAP1fWe8c?t=709"],
+      "quote":
+        "We are definitely going to be doing a full 6 degrees of freedom control mode"
+    },
+    {
+      "title": "Professional motion capture shoot",
+      "category": "MoCap",
+      "status": "Completed",
+      "sources": ["https://youtu.be/ZrKQn8u3gGk?t=695"],
+      "quote": "We're gonna do a full motion capture performance capture"
+    },
+    {
+      "title": "Using inertia for flight rather than burning fuel all the time",
+      "category": "Mechanics",
       "status": "Completed",
       "sources": [
-        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q8u88/"
+        "https://youtu.be/-3KIcnKf3O0?t=618",
+        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uwzxk/",
+        "https://www.youtube.com/watch?v=OeItEJPb5jE"
       ]
     },
     {
-      "title": "Private real estate",
+      "title":
+        "Star Citizens will receive access to the Squadron 42 campaign (18 months)",
       "category": "Mechanics",
-      "status": "In alpha",
+      "status": "Broken",
+      "tags": ["Kickstarter Stretch Goal"],
+      "sources": ["http://archive.is/hJEIw"]
+    },
+    {
+      "title":
+        "Star Citizens will receive access to the Star Citizen universe for online persistent play (30 months)",
+      "category": "Mechanics",
+      "status": "Broken",
+      "tags": ["Kickstarter Stretch Goal"],
+      "sources": ["http://archive.is/hJEIw"]
+    },
+    {
+      "title": "100 Star Systems to explore on launch",
+      "category": "Levels",
+      "status": "Broken",
+      "tags": ["Kickstarter Stretch Goal"],
       "sources": [
-        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q7k8k/",
-        "https://www.youtube.com/watch?v=tMMh7CToGyg"
+        "https://www.kickstarter.com/projects/cig/star-citizen/posts/351977",
+        "http://starcitizen.wikia.com/wiki/Stretch_goals#.E2.80.9CHave_Starship_Will_Travel.E2.80.A6.E2.80.9D_.28Stretch_Goal_3.29",
+        "http://www.robertsspaceindustries.com/comprehensive-stretch-goals/",
+        "https://www.youtube.com/watch?v=VGTj2iWkS-8&t=14m14s",
+        "https://web.archive.org/web/20161001062026/http://www.gamersnexus.net/gg/2613-chris-roberts-on-star-citizen-procedural-planets-alpha3-citizencon"
       ],
       "quote":
-        "We're definitely going to let you aquire real estate on planets/locations"
+        "Just to let you know, when it says 100 complete star systems, we don't mean we're delivering 100 complete star systems tomorrow or all in one day because you know, we got to a bunch of our star systems in our stretch goals, and also some of these star systems are to be explored and found."
     },
     {
       "title": "Capture asteroid bases",
@@ -4729,10 +4737,55 @@
         "Players will have the ability to trade amongst themselves and [there] will be supply and demand on goods."
     },
     {
+      "title": "Private real estate",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": [
+        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q7k8k/",
+        "https://www.youtube.com/watch?v=tMMh7CToGyg"
+      ],
+      "quote":
+        "We're definitely going to let you aquire real estate on planets/locations"
+    },
+    {
+      "title": "Only one ingame currency",
+      "category": "Economy",
+      "status": "Completed",
+      "sources": [
+        "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q8u88/"
+      ]
+    },
+    {
       "title": "Monthly Town Hall Q&A with Chris Roberts",
       "category": "Promo",
       "status": "Completed",
       "tags": ["Kickstarter Stretch Goal"]
+    },
+    {
+      "title": "Cruiser ship class",
+      "category": "Assets",
+      "status": "Stagnant",
+      "tags": ["Kickstarter Stretch Goal"]
+    },
+    {
+      "title": "Class I Repair Bot",
+      "category": "Assets",
+      "status": "Stagnant",
+      "tags": ["Kickstarter Stretch Goal"],
+      "sources": [
+        "https://www.kickstarter.com/projects/cig/star-citizen/posts/338340",
+        "http://starcitizen.wikia.com/wiki/AMX-1_Repair_Droid",
+        "https://robertsspaceindustries.com/funding-goals",
+        "http://starcitizen.wikia.com/wiki/Stretch_goals"
+      ]
+    },
+    {
+      "title": "Exploration",
+      "category": "Mechanics",
+      "status": "Stagnant",
+      "sources": ["https://youtu.be/FsWDLHVYNHI?t=205"],
+      "quote":
+        "So there's a lot to exploration. It's not just going to be looking for an undiscovered jump point, plotting the jump point, and going to the new system on the other side. "
     },
     {
       "title": "LifeTime Insurance (LTI) limited to kickstarter backers",
@@ -4761,32 +4814,6 @@
       ],
       "quote":
         "Jared Huckaby|It's probably a safe assumption to make that private servers are the very last thing on the development slate, and wouldn't even be looked into until after the persistent universe is up and running and stable."
-    },
-    {
-      "title": "Cruiser ship class",
-      "category": "Assets",
-      "status": "Stagnant",
-      "tags": ["Kickstarter Stretch Goal"]
-    },
-    {
-      "title": "Class I Repair Bot",
-      "category": "Assets",
-      "status": "Stagnant",
-      "tags": ["Kickstarter Stretch Goal"],
-      "sources": [
-        "https://www.kickstarter.com/projects/cig/star-citizen/posts/338340",
-        "http://starcitizen.wikia.com/wiki/AMX-1_Repair_Droid",
-        "https://robertsspaceindustries.com/funding-goals",
-        "http://starcitizen.wikia.com/wiki/Stretch_goals"
-      ]
-    },
-    {
-      "title": "Exploration",
-      "category": "Mechanics",
-      "status": "Stagnant",
-      "sources": ["https://youtu.be/FsWDLHVYNHI?t=205"],
-      "quote":
-        "So there's a lot to exploration. It's not just going to be looking for an undiscovered jump point, plotting the jump point, and going to the new system on the other side. "
     },
     {
       "title":
