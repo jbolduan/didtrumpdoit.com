@@ -21,8 +21,8 @@
     "Stagnant": { "color": "stagnant", "icon": "calendar-times-o" },
     "Broken": { "color": "danger", "icon": "ban" }
   },
-  "confidence": 95.1,
-  "promises": [
+  "confidence": 97.8,
+  "expectations": [
     {
       "title": "Character DNA blending",
       "category": "Assets",
@@ -262,7 +262,11 @@
       "category": "Promo",
       "status": "Broken",
       "sources": [
-        "http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/"
+        "http://wccftech.com/star-citizen-exclusive-interview-erin-roberts/",
+        "https://starcitizen.tools/Star_Citizen_Alpha_2.6.1",
+        "https://starcitizen.tools/Star_Citizen_Alpha_2.6.2",
+        "https://starcitizen.tools/Star_Citizen_Alpha_2.6.3",
+        "https://starcitizen.tools/Star_Citizen_Alpha_3.0.0"
       ],
       "quote":
         "Erin Roberts|We’re still at the start of the year and there is a lot of scheduling work going on so I’m obviously not giving dates today and of course we want to give the juicy information to the community first, but we’re looking at putting out perhaps 2 or 3 big releases this year which significantly push the amount of locations, gameplay mechanics and content that the players will be able to experience and give feedback on."
@@ -550,7 +554,14 @@
       "title": "3.0 patch - Diverse NPC actions",
       "category": "NPCs",
       "status": "Broken",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
+      "sources": [
+        "https://youtu.be/Z-3YBuFI3iI?t=1800",
+        "https://youtu.be/sMD-t1OjGys?t=1066",
+        "https://starcitizen.tools/Star_Citizen_Alpha_3.0.0",
+        "https://www.reddit.com/r/starcitizen/comments/7f6pnn/30_npcs_in_their_current_state/"
+      ],
+      "quote":
+        "CIG Developer|3.0 I think we’re actually going to aim for a pretty diverse set of things. [...] This will include everything from the prototypical bartender and bar patrons, tourists, vandals, businessmen… [...] shop keepers ... muggers"
     },
     {
       "title": "3.1 patch - Mining",
@@ -919,17 +930,23 @@
       "category": "Engine",
       "status": "Not implemented",
       "sources": [
-        "https://youtu.be/XD9_L5o4mhQ?t=1m10s",
         "https://forums.robertsspaceindustries.com/discussion/comment/7581676/#Comment_7581676"
       ],
       "quote":
-        "CIG Developer|I can say for certain that this is not the case, since the engine is 100% D3D 11 right now."
+        "CIG Developer|our current intention is to only support Vulkan and eventually drop support for DX11 as this shouldn't effect any of our backers. DX12 would only be considered if we found it gave us a specific and substantial advantage over Vulkan."
     },
     {
       "title": "DirectX 12 graphic engine support",
       "category": "Engine",
       "status": "Not implemented",
-      "sources": ["https://youtu.be/XD9_L5o4mhQ?t=1m10s"]
+      "tags": ["DX12"],
+      "sources": [
+        "https://youtu.be/XD9_L5o4mhQ?t=1m10s",
+        "https://forums.robertsspaceindustries.com/discussion/comment/7581676/#Comment_7581676",
+        "http://thetechaltar.com/star-citizen-will-use-vulkan-api/"
+      ],
+      "quote":
+        "we're going to do it right so we'll really get the performance gains\", \"it won't won't be ready until sort of next year sure but but yeah we're actively working on it\", \"we're gonna make sure performs pretty well on the DX11 and with DX12 it steps it up"
     },
     {
       "title": "Science Profession",
@@ -965,7 +982,8 @@
       "category": "Mechanics",
       "status": "Not implemented",
       "sources": [
-        "https://robertsspaceindustries.com/comm-link/engineering/14974-Design-The-Endeavor"
+        "https://robertsspaceindustries.com/comm-link/engineering/14974-Design-The-Endeavor",
+        "https://youtu.be/shnJ8UNkFGE?t=666"
       ],
       "quote":
         "RSI Site|The Discovery Module is geared towards the aspiring astronomer. It contains a powerful 16-meter telescope mounted on a rotatable base that is capable of scanning the Heavens in the infrared, visible, and gamma spectra as well as dual ejection ports for an array of long-range probes."
@@ -1188,7 +1206,8 @@
       "status": "In alpha",
       "sources": [
         "https://youtu.be/zt4r3ksHXng?t=1118",
-        "https://youtu.be/34m1pBfYJlU"
+        "https://youtu.be/34m1pBfYJlU",
+        "https://youtu.be/shnJ8UNkFGE?t=888"
       ],
       "quote":
         "But you are going to have your helm, your sort of radar scanning, your engineering section, obviously people in things like turrets to protect and we are going to have specific gameplay that's there so when you are working with your other shipmates manning the ship whether it's tracking things or protecting the ship or fixing things or balancing shields at the whole shield station we sort of have for the multi-crew"
@@ -1308,7 +1327,10 @@
       "title": "Squadron 42: First episiode in 2015",
       "category": "Levels",
       "status": "Broken",
-      "sources": ["https://youtu.be/v8BL8gXjc54?t=40m31s"],
+      "sources": [
+        "https://youtu.be/v8BL8gXjc54?t=40m31s",
+        "http://www.imdb.com/title/tt5194726/fullcredits"
+      ],
       "quote": "the end of this year is going to be Squadron 42"
     },
     {
@@ -1326,11 +1348,17 @@
       "title": "Shield management",
       "category": "Mechanics",
       "status": "In alpha",
-      "sources": [
-        "https://robertsspaceindustries.com/comm-link/16278-UEE-Land-Claim-Licenses",
-        "https://robertsspaceindustries.com/media/utd8kgqb7f07zr/source/Certificate_LOT_8x8.jpg",
-        "https://www.youtube.com/watch?v=baOd4MLeFkM"
-      ]
+      "sources": ["https://youtu.be/RtyZzO5OrE0?t=541"],
+      "quote":
+        "part of the core design so that you're able to do a huge amount of energy management. You know diverting energy from powerplant to your engine thrusters, to your shields, to your weapons, and even inside you shields, depending on the shield set up you have. "
+    },
+    {
+      "title": "Energy management",
+      "category": "Mechanics",
+      "status": "In alpha",
+      "sources": ["https://youtu.be/RtyZzO5OrE0?t=541"],
+      "quote":
+        "You'll probably be able to divert power between the different segments of the shield as well and even between the different weapons. "
     },
     {
       "title": "Star Marine - Game Mode",
@@ -1443,7 +1471,10 @@
       "title": "Next Great Starship winner for sale",
       "category": "Shop",
       "status": "Completed",
-      "sources": ["http://youtu.be/RtyZzO5OrE0?t=8m35s"]
+      "sources": [
+        "http://youtu.be/RtyZzO5OrE0?t=8m35s",
+        "https://youtu.be/76VwCNZvQ1g?t=1020"
+      ]
     },
     {
       "title": "MISC Prospector",
@@ -1624,7 +1655,7 @@
         "https://youtu.be/ydQhJPPcSYA?t=290"
       ],
       "quote":
-        "Well the tractor beam isn't implemented yet, but it's going to have a control/grav mechanic, it'll make whatever you're hauling with it be 'connected' to your ship, so you should be able to treat it like dragging around a piece of mass. I don't know what the strength of the beam will be yet, but assuming that there's one that you can grab hold of, you could fly your ship around and release the asteroid with momentum enough to continue in that direction. So potentially I could see people using the tractor beam in interesting ways for combat. It'll all be physically simulated correctly, think of the tractor beam as a virtual rope, and just like that there'll be limits on how big an object and how much mass you can tow etc."
+        "Well the tractor beam isn't implemented yet, but it's going to have a control/grav mechanic, it'll make whatever you're hauling with it be \"connected\" to your ship, so you should be able to treat it like dragging around a piece of mass. I don't know what the strength of the beam will be yet, but assuming that there's one that you can grab hold of, you could fly your ship around and release the asteroid with momentum enough to continue in that direction. So potentially I could see people using the tractor beam in interesting ways for combat. It'll all be physically simulated correctly, think of the tractor beam as a virtual rope, and just like that there'll be limits on how big an object and how much mass you can tow etc."
     },
     {
       "title": "Insurance policies",
@@ -2413,7 +2444,7 @@
         "https://youtu.be/VK4wHImGNAQ?t=424"
       ],
       "quote":
-        "There will be the simpler player created missions where it's like 'I need to hire someone to escort me' or 'I need to hire someone to take an item or items from planet A to planet B.' Those are all pretty simple."
+        "There will be the simpler player created missions where it's like \"I need to hire someone to escort me\" or \"I need to hire someone to take an item or items from planet A to planet B.\" Those are all pretty simple."
     },
     {
       "title": "Dogfighting module will have repair/refuel carriers",
@@ -2501,10 +2532,14 @@
       "sources": ["http://youtu.be/_cStwygPSFQ?t=6m34s"]
     },
     {
-      "title": "Ship-to-ship auto-docking",
+      "title": "Ship-to-ship docking",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/_cStwygPSFQ?t=9m30s"]
+      "sources": [
+        "http://youtu.be/_cStwygPSFQ?t=9m30s",
+        "https://i.imgur.com/yhrESaC.png",
+        "https://youtu.be/shnJ8UNkFGE?t=485"
+      ]
     },
     {
       "title": "Player run broadcasts",
@@ -2665,7 +2700,7 @@
       "status": "Not implemented",
       "sources": ["https://youtu.be/ZrKQn8u3gGk?t=145"],
       "quote":
-        "after a period of time, which I guess we'll determine, you would hit whatever the equivalent of the escape key is which would basically say 'Ok, I'm done now, I'm ready to be respawned back on my closest friendly planet or last location I was on. Then we'll cut to an in-game cinematic with you getting rescued by search and recovery or something like that."
+        "after a period of time, which I guess we'll determine, you would hit whatever the equivalent of the escape key is which would basically say \"Ok, I'm done now, I'm ready to be respawned back on my closest friendly planet or last location I was on. Then we'll cut to an in-game cinematic with you getting rescued by search and recovery or something like that."
     },
     {
       "title": "Squadron 42: Fully voice acted",
@@ -2727,7 +2762,8 @@
       "status": "Not implemented",
       "sources": [
         "https://youtu.be/joKjDdKcOMQ?t=810",
-        "https://youtu.be/SL3-Z4OPWis?t=2189"
+        "https://youtu.be/SL3-Z4OPWis?t=2189",
+        "https://i.imgur.com/1JF0a98.jpg"
       ],
       "quote":
         "But the rule is essentially light or below to be piloting the small fighter ships, and then if there are bigger ships we might see medium armour or heavy, titan armour I doubt you'd be able to sit down and pilot ships in it."
@@ -2844,7 +2880,7 @@
     {
       "title": "Player Rating System",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "In alpha",
       "sources": ["http://youtu.be/2jcCwDs2rbw?t=15m38s"]
     },
     {
@@ -2934,13 +2970,18 @@
       "title": "Group mining operations",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/XO1Q_D5tnSk?t=5m26s"]
+      "sources": ["http://youtu.be/XO1Q_D5tnSk?t=5m26s"],
+      "quote":
+        "we're definitely planning on allowing players to be able to do mining operations and get groups together and do it either on a small scale or a larger scale and you certainly will be able to as you sort of build up you know have a silo a warehouse or have your mining operations"
     },
     {
       "title": "Organization infiltration",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/XO1Q_D5tnSk?t=7m3s"],
+      "sources": [
+        "http://youtu.be/XO1Q_D5tnSk?t=7m3s",
+        "https://youtu.be/wE_xZdeakEw?t=587"
+      ],
       "quote":
         "Yes, we are actually thinking about having spying and infiltration all built in to the game mechanics. It's not in organizations yet, but there is some stuff that we'll drop in the website that will maybe allow a little bit of that in there, and then in the game we will definitely allow people to do a little bit of that."
     },
@@ -2948,14 +2989,20 @@
       "title": "Asteroid voxels",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["https://youtu.be/NvXNCS4fB7Q?t=303"],
-      "quote": "We're gonna do voxelization of asteroids"
+      "sources": [
+        "https://youtu.be/NvXNCS4fB7Q?t=364",
+        "https://youtu.be/NvXNCS4fB7Q?t=303"
+      ],
+      "quote":
+        "we've got actually a pretty cool mining mechanic and we're working you know we're going to do sort of voxelization of asteroids"
     },
     {
       "title": "Mineral refinement",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["https://youtu.be/NvXNCS4fB7Q?t=303"]
+      "sources": ["https://youtu.be/NvXNCS4fB7Q?t=303"],
+      "quote":
+        "there'll be a lot of the logistics involved in terms of getting them in getting the minerals and taking it to someone to get refined and all the rest of so all along the sort of sort of mining and logistics chain people get involved so I think it'll be kind of a cool game for people that like to do that and that's kind of the idea what star citizen to have all these different things you do that sort of suits all different tastes"
     },
     {
       "title": "Shareable star map locations",
@@ -2987,7 +3034,9 @@
       "title": "Benefits for ejecting from a ship about to explode",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/-3KIcnKf3O0?t=2m7s"]
+      "sources": ["http://youtu.be/-3KIcnKf3O0?t=2m7s"],
+      "quote":
+        "the benefit of ejecting rather than going up an explosion is that it sort of saves a life so to speak"
     },
     {
       "title": "Wreckage as a navigational hazard",
@@ -3006,7 +3055,17 @@
       "title": "Varied NPC skills",
       "category": "NPCs",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/-3KIcnKf3O0?t=1m9s"]
+      "sources": ["http://youtu.be/-3KIcnKf3O0?t=1m9s"],
+      "quote":
+        "there will definitely be variations between NPCs will have some level of sort of skill for the NPCs"
+    },
+    {
+      "title": "NPCs gain experience",
+      "category": "NPCs",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/-3KIcnKf3O0?t=57"],
+      "quote":
+        "there will definitely be variations between NPCs will have some level of sort of skill for the NPCs and probably there will be some progression for the NPCs so if they fight a lot of battles and they manage to be on the winning end of them then they will actually get better"
     },
     {
       "title": "Destroyed ships persist as derelicts and not despawn",
@@ -3072,13 +3131,13 @@
     {
       "title": "EVA ship repair",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": ["http://youtu.be/0pxlhEUFUPw?t=20m44s"]
     },
     {
       "title": "Bounty hunting system",
       "category": "Mechanics",
-      "status": "Not implemented",
+      "status": "Stagnant",
       "sources": [
         "http://youtu.be/0pxlhEUFUPw?t=17m50s",
         "http://youtu.be/H4Z2Fr9fHMc?t=3m",
@@ -3186,10 +3245,12 @@
       "sources": ["https://youtu.be/wE_xZdeakEw?t=454"]
     },
     {
-      "title": "NPCs prevent conflict in safe zones",
+      "title": "NPCs prevent organization conflict in safe zones",
       "category": "NPCs",
       "status": "Stagnant",
-      "sources": ["https://youtu.be/wE_xZdeakEw?t=531"]
+      "sources": ["https://youtu.be/wE_xZdeakEw?t=531"],
+      "quote":
+        "depending on what happens or where the battles happen you know the UEE may step in so you know two organizations cannot go toe-to-toe out in the orbital space of Earth"
     },
     {
       "title": "Beam weapons for larger ships",
@@ -3198,7 +3259,7 @@
       "sources": ["http://youtu.be/wE_xZdeakEw?t=14m11s"]
     },
     {
-      "title": "Relaying radar information to C&C Center",
+      "title": "Relay radar information to C&C Center",
       "category": "Mechanics",
       "status": "Stagnant",
       "sources": ["http://youtu.be/-y0GQV_Bx4U?t=3m2s"]
@@ -3225,7 +3286,7 @@
       ]
     },
     {
-      "title": "Ships relay radar data to each other and command centers",
+      "title": "Ships relay radar data to each other",
       "category": "Mechanics",
       "status": "Stagnant",
       "sources": ["https://youtu.be/-y0GQV_Bx4U?t=170"]
@@ -3305,11 +3366,13 @@
         "Most of the time it'll be handled in the background, and you'll negotiate prices/amounts using your manifest with the local commodities broker, they'll buy it then offload it from your ship."
     },
     {
-      "title": "Stellar Cartography",
+      "title": "Stellar cartography room",
       "category": "Mechanics",
       "status": "Stagnant",
       "tags": ["Official Stretch Goal"],
-      "sources": ["http://youtu.be/NcRxuvQT3Ew?t=10m55s"]
+      "sources": ["http://youtu.be/NcRxuvQT3Ew?t=10m55s"],
+      "quote":
+        "RSI Site|Star Citizen’s dedicated “map room” featuring a 3D holographic representation of the known universe. Your map room will start with a basic guide to the United Empire of Earth, and will expand into something that is unique to you as you explore uncharted worlds and discover new secrets. Build the most in-depth universe map possible and show it off to visitors, or lock down your secret jump points and hidden trading posts so that no one else can follow."
     },
     {
       "title": "Players won't always be able to run from combat",
@@ -3400,7 +3463,7 @@
     {
       "title": "Job or Contract System",
       "category": "Mechanics",
-      "status": "Stagnant",
+      "status": "In alpha",
       "sources": ["http://youtu.be/RtyZzO5OrE0?t=3m11s"]
     },
     {
@@ -3533,7 +3596,8 @@
       "status": "In alpha",
       "sources": [
         "https://robertsspaceindustries.com/comm-link/transmission/14354-Letter-From-The-Chairman",
-        "https://youtu.be/LEm7yKG5x_I?t=276"
+        "https://youtu.be/LEm7yKG5x_I?t=276",
+        "https://youtu.be/shnJ8UNkFGE?t=888"
       ],
       "quote":
         "we’re going to tell you about Star Citizen’s multi-crew ship seat actions. With the release of the Carrack, there has been a lot of discussion about how ships can be flown solo, whether or not they need a crew… and there have been a lot of questions as to how any of that will even work."
@@ -3833,7 +3897,8 @@
       "title":
         "Enhanced Capital Ship Systems (Multiple Players required for operation)",
       "category": "Assets",
-      "status": "Stagnant"
+      "status": "Stagnant",
+      "sources": ["https://youtu.be/shnJ8UNkFGE?t=888"]
     },
     {
       "title": "Customizable NPC crew",
@@ -4536,10 +4601,11 @@
       "status": "Stagnant",
       "tags": ["Kickstarter Stretch Goal"],
       "sources": [
-        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzsab/"
+        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6uzsab/",
+        "https://youtu.be/shnJ8UNkFGE?t=291"
       ],
       "quote":
-        "I know a lot of people don't think this is a 'big' stretch goal, but there's a lot of systems work that goes into supporting player items / flare - especially in handling it for all the potential millions of players..."
+        "I know a lot of people don't think this is a \"big\" stretch goal, but there's a lot of systems work that goes into supporting player items / flare - especially in handling it for all the potential millions of players..."
     },
     {
       "title": "Build professional sound studio",
@@ -4783,7 +4849,10 @@
       "title": "Exploration",
       "category": "Mechanics",
       "status": "Stagnant",
-      "sources": ["https://youtu.be/FsWDLHVYNHI?t=205"],
+      "sources": [
+        "https://youtu.be/FsWDLHVYNHI?t=205",
+        "https://youtu.be/shnJ8UNkFGE?t=80"
+      ],
       "quote":
         "So there's a lot to exploration. It's not just going to be looking for an undiscovered jump point, plotting the jump point, and going to the new system on the other side. "
     },
@@ -4829,6 +4898,22 @@
       ],
       "quote":
         "Finally there is one very important element – the more funds we can raise in the pre-launch phase, the more we can invest in additional content (more ships, characters etc.) and perhaps more importantly we can apply greater number of resources to the various tasks to ensure we deliver the full functionality sooner rather than later."
+    },
+    {
+      "title": "NPCs use cover each other's movement",
+      "category": "NPCs",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/sMD-t1OjGys?t=1106"],
+      "quote":
+        "CIG Developer|there is already coordination between the guys that fight. People that can advance while somebody else covers the advancement from a cover spot"
+    },
+    {
+      "title": "NPCs understand their enviornment",
+      "category": "NPCs",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/sMD-t1OjGys?t=1106"],
+      "quote":
+        "CIG Developer|I think the main thing with the combat that I’m really trying to push is the fact that they understand the environment."
     }
   ]
 }
