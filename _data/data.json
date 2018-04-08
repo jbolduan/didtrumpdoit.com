@@ -21,7 +21,7 @@
     "Stagnant": { "color": "stagnant", "icon": "calendar-times-o" },
     "Broken": { "color": "danger", "icon": "ban" }
   },
-  "confidence": 97.8,
+  "confidence": 97.9,
   "expectations": [
     {
       "title": "Character DNA blending",
@@ -87,7 +87,6 @@
       "title": "Cleaning and Mopping",
       "category": "NPCs",
       "status": "Not implemented",
-      "tags": ["mopping"],
       "sources": [
         "https://youtu.be/qcHAfaQh3QE?t=1089",
         "https://youtu.be/JMkePHE94-I?t=672"
@@ -359,7 +358,7 @@
     {
       "title": "Biomes",
       "category": "Levels",
-      "status": "Not implemented",
+      "status": "In alpha",
       "sources": [
         "http://www.gamersnexus.net/gg/2613-chris-roberts-on-star-citizen-procedural-planets-alpha3-citizencon",
         "https://youtu.be/LEm7yKG5x_I?t=844"
@@ -391,7 +390,10 @@
       "title": "3.0 patch - Increased mission complexity",
       "category": "Mechanics",
       "status": "Broken",
-      "sources": ["https://youtu.be/Z-3YBuFI3iI?t=1800"]
+      "sources": [
+        "https://youtu.be/Z-3YBuFI3iI?t=1800",
+        "https://youtu.be/Z-3YBuFI3iI?t=2153"
+      ]
     },
     {
       "title": "3.0 patch - Economy driven missions",
@@ -728,7 +730,8 @@
       "status": "Not implemented",
       "sources": [
         "https://i.imgur.com/uayOega.png",
-        "https://robertsspaceindustries.com/comm-link/transmission/14690-April-Monthly-Report"
+        "https://robertsspaceindustries.com/comm-link/transmission/14690-April-Monthly-Report",
+        "https://youtu.be/Z-3YBuFI3iI?t=1963"
       ]
     },
     {
@@ -805,6 +808,22 @@
       "sources": ["https://youtu.be/j02lrXo3fXA?t=1603"],
       "quote":
         "Sean Tracy|We've got a lot of first person stuff, holding weapons, we've got cover, we finally now got mantling and vaulting."
+    },
+    {
+      "title": "NPCs use cover each other's movement",
+      "category": "NPCs",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/sMD-t1OjGys?t=1106"],
+      "quote":
+        "CIG Developer|there is already coordination between the guys that fight. People that can advance while somebody else covers the advancement from a cover spot"
+    },
+    {
+      "title": "NPCs understand their enviornment",
+      "category": "NPCs",
+      "status": "Not implemented",
+      "sources": ["https://youtu.be/sMD-t1OjGys?t=1106"],
+      "quote":
+        "CIG Developer|I think the main thing with the combat that I’m really trying to push is the fact that they understand the environment."
     },
     {
       "title": "Star Marine more tactical and lethal than Call of Duty",
@@ -930,7 +949,8 @@
       "category": "Engine",
       "status": "Not implemented",
       "sources": [
-        "https://forums.robertsspaceindustries.com/discussion/comment/7581676/#Comment_7581676"
+        "https://forums.robertsspaceindustries.com/discussion/comment/7581676/#Comment_7581676",
+        "https://youtu.be/_-OoMySD66E?t=2230"
       ],
       "quote":
         "CIG Developer|our current intention is to only support Vulkan and eventually drop support for DX11 as this shouldn't effect any of our backers. DX12 would only be considered if we found it gave us a specific and substantial advantage over Vulkan."
@@ -946,7 +966,7 @@
         "http://thetechaltar.com/star-citizen-will-use-vulkan-api/"
       ],
       "quote":
-        "we're going to do it right so we'll really get the performance gains\", \"it won't won't be ready until sort of next year sure but but yeah we're actively working on it\", \"we're gonna make sure performs pretty well on the DX11 and with DX12 it steps it up"
+        "we're going to do it right so we'll really get the performance gains”, “it won't won't be ready until sort of next year sure but but yeah we're actively working on it”, “we're gonna make sure performs pretty well on the DX11 and with DX12 it steps it up"
     },
     {
       "title": "Science Profession",
@@ -1063,7 +1083,8 @@
       "category": "Mechanics",
       "status": "Not implemented",
       "sources": [
-        "https://robertsspaceindustries.com/comm-link/engineering/14522-Design-Notes-Mining"
+        "https://robertsspaceindustries.com/comm-link/engineering/14522-Design-Notes-Mining",
+        "https://youtu.be/50Jk-mQ9_pw?t=100"
       ],
       "quote":
         "RSI Site|The scan operator is responsible for injecting remote material analysis packages (RMAPs) into nearby asteroids that, upon success, immediately begin sending telemetry data back to the pilot and scan operator informing them as to the asteroid’s precise material composition."
@@ -1295,7 +1316,7 @@
       ]
     },
     {
-      "title": "Person of Interest System",
+      "title": "Person of interest tracking",
       "category": "Levels",
       "status": "Not implemented",
       "sources": [
@@ -1309,7 +1330,10 @@
       "title": "Ship signature spoofing",
       "category": "Mechanics",
       "status": "Broken",
-      "sources": ["https://youtu.be/Aoooemaw2lY?t=580"],
+      "sources": [
+        "https://youtu.be/Aoooemaw2lY?t=580",
+        "https://youtu.be/50Jk-mQ9_pw?t=100"
+      ],
       "quote":
         "I definitely think there will be systems out there that will potentially allow you to have a signature that would look like a different kind of ship and that could be pretty useful. For instance, you could have a signature to make you look like a freighter but you're not – as a trap"
     },
@@ -1754,7 +1778,12 @@
       "category": "Assets",
       "status": "Not implemented",
       "tags": ["Official Stretch Goal"],
-      "sources": ["http://youtu.be/XBVkhXGX8iI?t=10m50s"]
+      "sources": [
+        "http://youtu.be/XBVkhXGX8iI?t=10m50s",
+        "https://youtu.be/OSOETxLuUHo",
+        "https://youtu.be/tznbxuUbEwI",
+        "https://youtu.be/Q0KmHVzSIxo"
+      ]
     },
     {
       "title": "External Repair Structure",
@@ -2085,7 +2114,9 @@
       "title": "PvE Encounters",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/RpHGEtOXFvE?t=27m59s"]
+      "sources": ["http://youtu.be/RpHGEtOXFvE?t=27m59s"],
+      "quote":
+        "\"we're going to try to have some sort of pve combat encounters that go beyond just flying your spaceship\""
     },
     {
       "title": "Transfer fees",
@@ -2277,7 +2308,9 @@
       "title": "Galactapedia",
       "category": "Mechanics",
       "status": "Not implemented",
-      "sources": ["http://youtu.be/RpHGEtOXFvE?t=22m32s"]
+      "sources": ["http://youtu.be/RpHGEtOXFvE?t=22m32s"],
+      "quote":
+        "If you're the one who finally defeats the Dread Pirate Roberts, charts a new Jump Point or makes the Advocacy's Most Wanted list, your actions will become memorialized for all time in the Galactapedia! What's more, the Galactapedia will be available both inside Star Citizen and through the RSI website."
     },
     {
       "title": "Space monsters",
@@ -2846,6 +2879,7 @@
       "title": "Procedural Generation R&D Team",
       "category": "Engine",
       "status": "Completed",
+      "tags": ["Official Stretch Goal"],
       "sources": ["http://youtu.be/2jcCwDs2rbw?t=5m26s"]
     },
     {
@@ -3866,7 +3900,8 @@
       "category": "Engine",
       "status": "Broken",
       "sources": [
-        "https://robertsspaceindustries.com/comm-link/transmission/13362-Star-Citizen-To-Include-Mantle-Support"
+        "https://robertsspaceindustries.com/comm-link/transmission/13362-Star-Citizen-To-Include-Mantle-Support",
+        "https://www.youtube.com/watch?v=sSY2KXBoro0#t=1050s"
       ],
       "quote":
         "Wikipedia|Mantle will be supported by AMD in neither the short term nor long term future, effectively making all future games unable to implement Mantle"
@@ -4032,12 +4067,6 @@
         "https://robertsspaceindustries.com/pledge/ships/aegis-idris/Idris-M",
         "https://www.twitch.tv/videos/236884786?t=49m50s"
       ]
-    },
-    {
-      "title": "Procedural Generation R&D Team",
-      "category": "Promo",
-      "status": "Completed",
-      "tags": ["Official Stretch Goal"]
     },
     {
       "title": "Accurate physics system",
@@ -4281,9 +4310,10 @@
     {
       "title": "RSI Constellation",
       "category": "Ships",
-      "status": "Stagnant",
+      "status": "Completed",
       "sources": [
-        "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila"
+        "https://robertsspaceindustries.com/pledge/ships/rsi-constellation/Constellation-Aquila",
+        "https://www.youtube.com/watch?v=rTQ7nmc09ls"
       ]
     },
     {
@@ -4471,7 +4501,9 @@
       "sources": [
         "http://archive.is/OLbEi#5%",
         "https://youtu.be/LtQsyKsr4-c?t=1800",
-        "https://robertsspaceindustries.com/voyager-direct/BEHR-M-Series/M4A-Laser-Cannon"
+        "https://robertsspaceindustries.com/voyager-direct/BEHR-M-Series/M4A-Laser-Cannon",
+        "https://youtu.be/M6ugvBqlFLM?t=158",
+        "https://robertsspaceindustries.com/pledge/ships"
       ],
       "quote": "Kickstarter Campaign|Star Citizen is: No Pay to Win"
     },
@@ -4777,11 +4809,14 @@
     {
       "title": "Trade",
       "category": "Economy",
-      "status": "Stagnant",
+      "status": "In alpha",
       "sources": [
         "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9tze/",
-        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1oju/"
-      ]
+        "https://www.reddit.com/r/IAmA/comments/12grru/i_am_chris_roberts_creator_of_wing_commander/c6v1oju/",
+        "https://youtu.be/nLsoF5I-34w?t=56"
+      ],
+      "quote":
+        "There will be some crafting and a lot of trading. I hope that various players gravitate to different roles ; solider, merchant, mercenary, pirate, explorer, miner and even industrialist."
     },
     {
       "title": "Crafting",
@@ -4790,7 +4825,9 @@
       "sources": [
         "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6qa10k/",
         "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q9tze/"
-      ]
+      ],
+      "quote":
+        "There will be some crafting and a lot of trading. I hope that various players gravitate to different roles ; solider, merchant, mercenary, pirate, explorer, miner and even industrialist."
     },
     {
       "title": "Supply and Demand",
@@ -4805,7 +4842,7 @@
     {
       "title": "Private real estate",
       "category": "Mechanics",
-      "status": "In alpha",
+      "status": "Stagnant",
       "sources": [
         "https://www.reddit.com/r/IAmA/comments/11wivt/i_am_chris_roberts_creator_of_wing_commander/c6q7k8k/",
         "https://www.youtube.com/watch?v=tMMh7CToGyg"
@@ -4898,22 +4935,6 @@
       ],
       "quote":
         "Finally there is one very important element – the more funds we can raise in the pre-launch phase, the more we can invest in additional content (more ships, characters etc.) and perhaps more importantly we can apply greater number of resources to the various tasks to ensure we deliver the full functionality sooner rather than later."
-    },
-    {
-      "title": "NPCs use cover each other's movement",
-      "category": "NPCs",
-      "status": "Not implemented",
-      "sources": ["https://youtu.be/sMD-t1OjGys?t=1106"],
-      "quote":
-        "CIG Developer|there is already coordination between the guys that fight. People that can advance while somebody else covers the advancement from a cover spot"
-    },
-    {
-      "title": "NPCs understand their enviornment",
-      "category": "NPCs",
-      "status": "Not implemented",
-      "sources": ["https://youtu.be/sMD-t1OjGys?t=1106"],
-      "quote":
-        "CIG Developer|I think the main thing with the combat that I’m really trying to push is the fact that they understand the environment."
     }
   ]
 }
