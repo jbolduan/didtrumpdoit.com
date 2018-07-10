@@ -96,7 +96,10 @@ layout: page
                 <tbody class="list">
                     <!-- add color to each policy -->
                     {% for promise in promises %}
-                    {% if promise.category == 'Ships' %}
+                        {% if promise.category != 'Ships' %}
+                            {% continue %}
+                        {% endif %}
+                        
                     <tr class="promise {% if promise.status == 'Not implemented' %}warning{% endif %}{% if promise.status == 'In alpha' %}info{% endif %}{% if promise.status == 'Completed' %}success{% endif %}{% if promise.status == 'Broken' %}danger{% endif %}{% if promise.status == 'Stagnant' %}stagnant{% endif %}{% if promise.status == 'Compromised' %}compromised{% endif %}">
                         <!-- <td class="promise__id">{{ forloop.index }}.</td> -->
                         <!-- Numbering promises is slightly annoying because we deal with a lot more promises than TrumpTracker and prefer to sort by date which may change the numbering -->
