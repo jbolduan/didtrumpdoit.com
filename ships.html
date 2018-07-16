@@ -5,7 +5,7 @@ layout: page
 {% assign promises = site.data.data.expectations %}
 {% assign icons = site.data.data.icons %}
 {% assign statuses = site.data.data.statuses %}
-{% assign total = promises | size %}
+{% assign total = 0 %}{% for item in promises %}{% unless item.category != 'Ships' %}{% assign total=total | plus:1 %}{% endunless %}{% endfor %}
 {% assign categories = promises | map: 'category' | uniq %}
 
 <div class="container promises-header page-header" id="promises-header">
