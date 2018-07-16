@@ -113,8 +113,7 @@ layout: page
                         </td> -->
                         <td class="promise__title js-promise-text">
                             <a name="{{ promise.title | replace: ' ', '_' }}" class="anchor"></a>
-                            <b>
-                                <span class="js-promise-category">{{ promise.category }}</span>:</b>
+                            <!-- <b><span class="js-promise-category">{{ promise.category }}</span>:</b> --> <!-- Not needed on Ships page -->
                             <span class="promise__status-text js-promise-status sr-only">{{ promise.status }}</span>
                             {{ promise.title }}
                             <!-- Append badges for anything of interest -->
