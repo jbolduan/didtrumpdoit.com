@@ -1,6 +1,8 @@
 # StarCitizen Tracker
 
-StarCitizen Tracker is forked from [TrumpTracker](https://trumptracker.github.io/) but derives it's inspiration from a list entitled ["Where's the NMS we were sold on?"](https://web.archive.org/web/20160816191001/https://www.reddit.com/r/NoMansSkyTheGame/comments/4y046e/wheres_the_nms_we_were_sold_on_heres_a_big_list/)
+StarCitizen Tracker is forked from [TrumpTracker](https://trumptracker.github.io/) but derives most of it's inspiration from a list entitled ["Where's the NMS we were sold on?"](https://web.archive.org/web/20160816191001/https://www.reddit.com/r/NoMansSkyTheGame/comments/4y046e/wheres_the_nms_we_were_sold_on_heres_a_big_list/)
+
+You can read even more about this project and it's history at [starcitizentracker.github.io/presskit/](https://starcitizentracker.github.io/presskit/)
 
 [**MIT license**](https://github.com/StarCitizenTracker/StarCitizenTracker.github.io/blob/master/LICENSE.md)
 
@@ -13,8 +15,10 @@ We'd love to get contributions from you! Please do not sign source code.
 # To Do List
 - [ ] Re-implement Comment section -- Reddit Integration?
 - [ ] Sign up for bi-weekly e-mails?
-- [ ] Make the FAQ and Press pages prettier
-- [ ] Update FAQ 
+- [ ] Commit new twitterbot code to github
+- [ ] Remove ship category from main page
+- [x] Make the FAQ and Press pages prettier
+- [x] Update FAQ 
 - [x] Find more active editors for data entry
 - [x] Update about page
 - [x] Accuracy confidence percentage
