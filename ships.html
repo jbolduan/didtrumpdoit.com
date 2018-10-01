@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% assign promises = site.data.data.expectations %}
+{% assign promises = site.data.shipdata.expectations %}
 {% assign icons = site.data.data.icons %}
 {% assign statuses = site.data.data.statuses %}
 {% assign total = 0 %}{% for item in promises %}{% unless item.category != 'Ships' %}{% assign total=total | plus:1 %}{% endunless %}{% endfor %}
