@@ -16,7 +16,7 @@ We'd love to get contributions from you! Please do not sign source code.
 - [ ] Re-implement Comment section -- Reddit Integration?
 - [ ] Sign up for bi-weekly e-mails?
 - [ ] Commit new twitterbot code to github
-- [ ] Remove ship category from main page
+- [x] Remove ship category from main page
 - [x] Make the FAQ and Press pages prettier
 - [x] Update FAQ 
 - [x] Find more active editors for data entry
