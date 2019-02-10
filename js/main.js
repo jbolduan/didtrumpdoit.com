@@ -48,7 +48,7 @@
     //$('#confidence-btn').tooltip('show');
     
     // Select and replace maintained by name
-    var maintainers = ["SomethingAwful Goons", "CryTek Legal Beagles", "Coutts & Co.", "10% for the Cayman", "Bitter EvE Goons", "Salty Asshats", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Thanks notepad", "Archive-Priests™", "Ryan Archer"]
+    var maintainers = ["SomethingAwful Goons", "Celestial Body Construction Team 09", "CryTek Legal Beagles", "Coutts & Co.", "10% for the Cayman", "Bitter EvE Goons", "Salty Asshats", "Goons stuck in checkmate", "T-posed Goons", "MY GIRLFRIEND", "The Fourth Stimpire", "WaffleImages", "COBOL Greybeards", "Blocked Buddies", "Thanks notepad", "Archive-Priests™", "Ryan Archer"]
     var maintainer = maintainers[Math.floor(Math.random() * maintainers.length)];
     $('.maintainer-name').html(maintainer);
 
