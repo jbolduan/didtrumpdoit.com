@@ -10,12 +10,14 @@ You can read even more about this project and it's history at [starcitizentracke
 
 # Contributing
 
-We'd love to get contributions from you! Please do not sign source code.
+We'd love to get contributions from you! **Please do not sign source code.**
 
-# To Do List
-- [ ] Re-implement Comment section -- Reddit Integration?
-- [ ] Sign up for bi-weekly e-mails?
-- [ ] Commit new twitterbot code to github
+# ToDo and Ideas
+- [ ] Use source links in /majorsystems
+- [ ] Add more fart jokes
+- [ ] Re-implement Comment section?
+- [ ] Sign up for newsletter?
+- [x] Commit new twitterbot code to github (private repo)
 - [x] Remove ship category from main page
 - [x] Make the FAQ and Press pages prettier
 - [x] Update FAQ 
