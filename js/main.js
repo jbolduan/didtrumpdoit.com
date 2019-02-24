@@ -39,10 +39,9 @@
   $(function() {
     // Dates
     var today = moment();
-    var inauguration = moment('2012-11-19');
-    $('#inauguration-days').html(inauguration.diff(today, 'days') > 0 ? inauguration.diff(today, 'days') : 'NA');
-    $('#inauguration-time-container').hide(); //TEMP FIX 
-    $('#days-in-office').html(today.diff(inauguration, 'days') > 0 ? today.diff(inauguration, 'days') : 0);
+    var kickstarterended = moment('2012-11-19');
+		$('#days-since-kickstarter').html(today.diff(kickstarterended, 'days') > 0 ? today.diff(kickstarterended, 'days') : 0);
+		$('#years-since-kickstarter').html(today.diff(kickstarterended, 'years') > 0 ? today.diff(kickstarterended, 'years') : 0);
 
     //Always show tooltip on confidence-btn
     //$('#confidence-btn').tooltip('show');
