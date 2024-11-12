@@ -22,6 +22,7 @@ Explanation of your *issue* in arbitrary form goes here. Please make sure the de
 - [ ] Site support request (request for adding support)
 - [ ] Feature request (request for a new functionality)
 - [ ] Question
+- [ ] Security
 - [ ] Other
 
 ---

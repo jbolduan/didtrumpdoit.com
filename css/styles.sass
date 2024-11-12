@@ -2,7 +2,16 @@
 ---
 @import 'variables'
 
+html, body
+  heigh: 100%
+
+html
+  display: table
+  margin: auto
+
 body
+  display: table-cell
+  vertical-align: middle
   padding-top: 50px
   font-size: $font-size
 
@@ -25,6 +34,9 @@ body
 .loading
   color: rgba(0, 0, 0, 0.5)
   font-style: normal
+
+.hidden
+  display: none
 
 // bootstrap v4-alpha colors for `compromised` - modified `muted`
 .btn-compromised
@@ -98,42 +110,3 @@ body
 
 .badge-inverse
   background-color: #333333
-
-
-
-
-// -----------------------------------------------------------------
-
-// all other css selectors which require color 
-
-// .btn-compromised
-//   background-color: #ccdde8
-//   border-color: #ccdde8
-
-// .badge
-//   color: #ccdde8
-//   background-color: #fff
-
-// .label-compromised
-//   background-color: #ccdde8
-
-// .label-compromised
-//   background-color: #ccdde8
-
-// .progress-bar-compromised
-//   background-color: #ccdde8
-
-
-// new colors from bootstrap v4 alpha
-
-// .warning
-//   color: #d9534f!important
-
-// .danger
-//   color: #f0ad4e!important
-
-// .info
-//   color: #5bc0de!important
-
-// .success
-//   color: #5cb85c!important

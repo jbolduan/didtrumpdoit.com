@@ -1,0 +1,59 @@
+title: "[Promise] "
+lables: "[Promise Discusison]"
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of the promise made and any relevent details to the promise.
+    value: |
+      Please provide a description.
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: What is the current status of this promise?
+      options:
+        - Not started
+        - In progress
+        - Achieved
+        - Broken
+        - Compromised
+    validations:
+      required: true
+  - type: textarea
+    id: statusinfo
+    attributes:
+      label: Status Description
+      description: A brief description of the current status, if known.
+    value: "Please enter a brief status description."
+    validation:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What is the current status of this promise?
+      options:
+        - First 24 Hours
+        - First 100 Days
+        - Culture
+        - Economy
+        - Environment
+        - Government
+        - Immigration
+        - Indigenous
+        - Security
+        - Health
+        - World
+        - Education
+    validations:
+      required: true
+  - type: textarea
+    id: urls
+    attributes:
+      label: References (URLs)
+      description: Provide a minimum of one resource that sources the promise being made.
+    value: "https://"
+    validations:
+      required: true

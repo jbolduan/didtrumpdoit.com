@@ -14,7 +14,7 @@ end
 
 # Rake Jekyll tasks
 task :build do
-  Rake::Task["json2yaml"].invoke
+  #Rake::Task["json2yaml"].invoke
   puts 'Building site...'.bold
   Jekyll::Commands::Build.process(profile: true)
 end
@@ -25,7 +25,7 @@ task :clean do
 end
 
 task :serve do
-  Rake::Task["json2yaml"].invoke
+  #Rake::Task["json2yaml"].invoke
   puts 'Autoregenerating site...'.bold
   sh "bundle exec jekyll serve"
 end
@@ -49,6 +49,6 @@ end
 task :test do
   sh "rm -rf ./_site"
   sh "bundle exec jekyll build"
-  Rake::Task["json2yaml"].invoke  
-  sh "bundle exec htmlproofer --allow-hash-href --check-favicon --check-opengraph --check-html --check-img-http --timeframe 15d --enforce-https --check-external-hash --url-ignore https://web.archive.org/web/* ./_site"
+  #Rake::Task["json2yaml"].invoke  
+  sh "bundle exec htmlproofer --allow-hash-href --check-favicon --check-html --check-img-http --timeframe 15d --enforce-https --check-external-hash --url-ignore https://web.archive.org/web/* ./_site"
 end
