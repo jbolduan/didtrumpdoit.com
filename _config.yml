@@ -13,14 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Trump Tracker
-email: viren.mohindra+trump@gmail.com
+title: Trump Won't
+email: jbolduan+trump@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Track Donald J Trump's Electoral Promises with Trump Tracker.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: VirenMohindra
-github_username:  TrumpTracker
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://trumpwont.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: theGimpboy
+github_username: jbolduan
 
 # Build settings
 markdown: kramdown
@@ -49,7 +49,6 @@ compress_html:
   ignore:
     envs: [local]
   blanklines: false
-
 # Be sure to exclude vendor from your  _config.yml
 # Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
 # https://jekyllrb.com/docs/continuous-integration/
