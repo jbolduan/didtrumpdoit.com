@@ -1,8 +1,8 @@
-### Description of your *issue*, suggested solution and other information
+# Description of your *issue*, suggested solution and other information
 
 Explanation of your *issue* in arbitrary form goes here. Please make sure the description is worded well enough to be understood. Provide as much context and examples as possible.
 
-## Please follow (and edit) the guide below to expedite the bugtracker process.
+## Please follow (and edit) the guide below to expedite the bug tracking process
 
 - You will be asked a few questions:
 - Put an `x` into all the boxes [ ] relevant to your *pull request* (like that [x])
@@ -10,15 +10,17 @@ Explanation of your *issue* in arbitrary form goes here. Please make sure the de
 
 ---
 
-### Make sure you are using the *latest* version: pull latest commits before reporting any issues.
-- [ ] I've **verified** and **I assure** that I'm looking at the latest version of StarCitizen Tracker.
+### Make sure you are using the *latest* version: pull latest commits before reporting any issues
 
-### Before submitting an *issue* make sure you have:
-- [ ] At least skimmed through [README](https://github.com/StarCitizenTracker/startcitizentracker.github.io/blob/master/README.md) and **most notably** the [To Do List](https://github.com/StarCitizenTracker/startcitizentracker.github.io#to-do-list) section.
-- [ ] [Searched](https://github.com/StarCitizenTracker/startcitizentracker.github.io/search?type=Issues) the bugtracker for similar issues including closed ones
+- [ ] I've **verified** and **I assure** that I'm looking at the latest version of TrumpWont.com.
 
-### What is the purpose of your *issue*?
-- [ ] Bug report (encountered problems with the startcitizentracker website)
+### Before submitting an *issue* make sure you have
+
+- [ ] At least skimmed through [README](https://github.com/jbolduan/trumpwont.com/blob/master/README.md), the [Issues](https://github.com/jbolduan/trumpwont.com/issues), the [Discussions](https://github.com/jbolduan/trumpwont.com/discussions) and [CONTRIBUTING.md](https://github.com/jbolduan/trumpwont.com/blob/master/CONTRIBUTING.md) pages.
+
+### What is the purpose of your *issue*
+
+- [ ] Bug report (encountered problems with the TrumpWont.com website)
 - [ ] Site support request (request for adding support)
 - [ ] Feature request (request for a new functionality)
 - [ ] Question

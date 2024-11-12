@@ -1,13 +1,17 @@
-##### Generated with `git shortlog -sn | cut -c8-`, which sorts by commits, manually ordered the first four authors, merged duplicates
+# Contributors
 
-- Viren Mohindra
+Generated with `git shortlog -sn | cut -c8-`, which sorts by commits, manually ordered the first four authors, merged duplicates
+
 - StarCitizenTracker
+- Viren Mohindra
 - MrLuit
 - Alan Friedman
 - Matt Sandy
 - Sidd
+- Jeff Bolduan
 - Kyle Hodgetts
 - TrumpTracker
+- Sean Dwyer
 - Ayoungcoder
 - Christian Oliff
 - Jay Ravaliya
@@ -26,5 +30,4 @@
 - Joshua Berenhaus
 - Michael Henry
 - Scott Jones
-- Sean Dwyer
 - The Gitter Badger

@@ -1,38 +1,20 @@
-# StarCitizen Tracker
+# TrumpWont.com
 
-StarCitizen Tracker is forked from [TrumpTracker](https://trumptracker.github.io/) but derives most of it's inspiration from a list entitled ["Where's the NMS we were sold on?"](https://web.archive.org/web/20160816191001/https://www.reddit.com/r/NoMansSkyTheGame/comments/4y046e/wheres_the_nms_we_were_sold_on_heres_a_big_list/)
+TrumpWont.com is forked from [TrumpTracker](https://trumptracker.github.io/) and [StarCitizenTracker](https://github.com/StarCitizenTracker).  The intention is to carry on tracking things Trump has said he would do and what was actually able to accomplish.
 
-You can read even more about this project and it's history at [starcitizentracker.github.io/presskit/](https://starcitizentracker.github.io/presskit/)
+## Report Issues
 
-[**MIT license**](https://github.com/StarCitizenTracker/StarCitizenTracker.github.io/blob/master/LICENSE.md)
+1. Pull request is best
 
-[![forthebadge](http://forthebadge.com/images/badges/certified-steve-bruhle.svg)](http://forthebadge.com)
+## Add Promises
 
-# Contributing
+You can either add a promise by updating the [json](https://github.com/jbolduan/trumpwont.com/blob/master/_data/data.json) file, or adding a new promise in the discussions section.
 
-We'd love to get contributions from you! **Please do not sign source code.**
+## Contributing
 
-# ToDo and Ideas
-- [ ] Use source links in /majorsystems
-- [ ] Add more fart jokes
-- [ ] Re-implement Comment section?
-- [ ] Sign up for newsletter?
-- [x] Commit new twitterbot code to github (private repo)
-- [x] Remove ship category from main page
-- [x] Make the FAQ and Press pages prettier
-- [x] Update FAQ 
-- [x] Find more active editors for data entry
-- [x] Update about page
-- [x] Accuracy confidence percentage
-- [x] Cleaner way to add and handle elements (not hardcode it...)
-- [x] Fuzzy Search functionality
-- [x] Database
-- [x] Add Open Source Links and Credits on Footer
-- [x] Clean up duplicates
-- [x] Implement functionality to sort by categories
-- [x] Add tweet button
+We'd love to get contributions from you!
 
-# Setup
+## Setup
 
 Install [Jekyll](https://jekyllrb.com/) and Bundler:
 
@@ -42,9 +24,8 @@ Install [Jekyll](https://jekyllrb.com/) and Bundler:
 
 Site is now running at [localhost:4000](http://localhost:4000)
 
-# Tests
+## Tests
+
+This is not working currently, will determine what, if any use this has going forward.
 
     rake test
-
-# Report Issues
-1. Pull request is best
