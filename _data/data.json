@@ -12,7 +12,8 @@
         "Health": "heart",
         "World": "globe",
         "Education": "graduation-cap",
-        "Energy": "lightbulb"
+        "Energy": "lightbulb",
+        "Influencer Commitment": "trash"
     },
     "statuses": {
         "Not started": {
@@ -38,14 +39,25 @@
     },
     "promises": [
         {
-            "title": "End war in Ukrane within 24 hours of being elected",
-            "description": "Trump claimed he would end the war in Ukrane in 24 hours if he won.",
+            "title": "End war in Ukraine within 24 hours of being elected",
+            "description": "Trump claimed he would end the war in Ukraine in 24 hours if he won.",
             "status": "Broken",
             "status_info": "This promise was marked as broken because it was not fulfilled within 24 hours. It will be marked as compromised when it is executed.",
             "category": "First 24 Hours",
             "comments": "https://notimplemented",
             "sources": [
                 "https://x.com/RpsAgainstTrump/status/1854554773623578733"
+            ]
+        },
+        {
+            "title": "Withdraw from the Paris climate agreement",
+            "description": "Trump promises to pull out of the climate agreement and claw back any unspent or unallocated money.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Environment",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://www.reuters.com/business/environment/trump-prepares-withdrawing-paris-climate-agreement-nyt-reports-2024-11-08/"
             ]
         },
         {
