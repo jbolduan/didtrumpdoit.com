@@ -1,9 +1,9 @@
 {
     "icons": {
-        "First 24 Hours": "clock-o",
-        "First 100 Days": "calendar-o",
+        "First 24 Hours": "clock",
+        "First 100 Days": "calendar",
         "Culture": "music",
-        "Economy": "dollar",
+        "Economy": "dollar-sign",
         "Environment": "leaf",
         "Government": "university",
         "Immigration": "suitcase",
@@ -13,7 +13,8 @@
         "World": "globe",
         "Education": "graduation-cap",
         "Energy": "lightbulb",
-        "Influencer Commitment": "trash"
+        "Republican Promise": "elephant",
+        "Influencer Promise": "trash"
     },
     "statuses": {
         "Not started": {
@@ -26,7 +27,7 @@
         },
         "Achieved": {
             "color": "success",
-            "icon": "check-circle-o"
+            "icon": "check-circle"
         },
         "Broken": {
             "color": "danger",
@@ -34,7 +35,7 @@
         },
         "Compromised": {
             "color": "compromised",
-            "icon": "handshake-o"
+            "icon": "handshake"
         }
     },
     "promises": [
@@ -58,6 +59,17 @@
             "comments": "https://notimplemented",
             "sources": [
                 "https://www.reuters.com/business/environment/trump-prepares-withdrawing-paris-climate-agreement-nyt-reports-2024-11-08/"
+            ]
+        },
+        {
+            "title": "<b>Laura Trump</b> - Trump is not associated with and doesn't support Project 2025.",
+            "description": "Laura Trump is saying that Trump doesn't know anything about project 2025 and that he does not support and find many things 'really frightening' about the plan.  Claims associations with Trump and Trumps platform with project 2025 are hoaxes and misinformation.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Influencer Promise",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://drive.google.com/file/d/13Z57FXCEflJusMmvj8jF9DCb4YsscEJW/view"
             ]
         },
         {
