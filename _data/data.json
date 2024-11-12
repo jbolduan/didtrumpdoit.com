@@ -11,7 +11,8 @@
         "Security": "fighter-jet",
         "Health": "heart",
         "World": "globe",
-        "Education": "graduation-cap"
+        "Education": "graduation-cap",
+        "Energy": "lightbulb"
     },
     "statuses": {
         "Not started": {
@@ -45,6 +46,203 @@
             "comments": "https://notimplemented",
             "sources": [
                 "https://x.com/RpsAgainstTrump/status/1854554773623578733"
+            ]
+        },
+        {
+            "title": "Seal the border and stop the migrant invasion",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Immigration",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Carry out the largest deportation operation in american history",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "category": "Immigration",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Make america the dominant energy producer in the world, by far!",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Energy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Stop outsourcing, and turn the United States into a manufacturing superpower",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Tax cuts for workers",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "No taxes on tips",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Defend our constitution, our bill of rights, and our fundamental freedoms, including freedom of speech, freedom of religion, and the right to bear arms",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Government",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Restore peace in Europe",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "World",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Restore peace in the Middle East",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "World",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Build a great iron dome missile defense shield over the United States",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Security",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "End the weaponization of government against the American people",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Government",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Stop the migrant crime epidemic",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "World",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Demolish the foreign drug cartels",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "World",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Crush gang violence and lock up violent offenders",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Government",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "No cuts to medicare or social security including no increase in retirement age",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Government",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Cancel electric vehicle mandate and related regulations",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Environment",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Cut federal funding for any school pushing critical race theory, radical gender ideology, and other inappropriate racial, sexual, or political content",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Education",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
+            ]
+        },
+        {
+            "title": "Secure elections including same day voting, voter identification, paper ballots, and proof of citizenship",
+            "description": "Trump made this commitment as a part of his policy platform while running for president.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Government",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
         }
     ]
