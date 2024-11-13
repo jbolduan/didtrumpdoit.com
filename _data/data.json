@@ -268,6 +268,62 @@
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
+        },
+        {
+            "title": "No tax on overtime hours",
+            "description": "Trump has committed to a blanket exemption from income tax for income earned from overtime work.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241107003106/https://taxfoundation.org/blog/trump-overtime-tax-exemption"
+            ]
+        },
+        {
+            "title": "Make government or insurance pay for IVF",
+            "description": "Trump said he would make the government or insurance companies pay for IVF 'under a mandate'",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Health",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241108152336/https://www.nbcnews.com/politics/donald-trump/trump-says-wants-make-ivf-treatments-paid-government-insurance-compani-rcna168804"
+            ]
+        },
+        {
+            "title": "Put a temporary cap on credit card interest of 'around 10%'",
+            "description": "Said during a rally on Sept. 18th 2024.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://www.reuters.com/markets/us/tariffs-tax-cuts-core-trumps-economic-pitch-voters-2024-09-24/"
+            ]
+        },
+        {
+            "title": "Cut automotive insurance in half",
+            "description": "Tweet indicating he will cut the increase of '73%' in half if elected",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://x.com/realDonaldTrump/status/1836100511960818044"
+            ]
+        },
+        {
+            "title": "Impose tariffs on imported goods",
+            "description": "Trump has repeatedly indicated he will impose various tariffs on imported goods.",
+            "status": "Not started",
+            "status_info": "No information on this promise yet.",
+            "category": "Economy",
+            "comments": "https://notimplemented",
+            "sources": [
+                "https://web.archive.org/web/20241113003613/https://apnews.com/article/trump-taxes-social-security-overtime-tariffs-989016ef41dc1533b05d1871d69c03ff",
+                "https://www.reuters.com/world/trump-says-he-would-impose-tariffs-china-if-china-went-into-taiwan-2024-10-18/"
+            ]
         }
     ]
 }
