@@ -12,8 +12,11 @@ if ($env:JBOLDUAN_PAT) {
 
     $PSVersionTable
 }
-else {
+elseif (Test-Path C:\temp\mytoken.txt) {
     $TOKEN = Get-Content -Path C:\temp\mytoken.txt
+}
+else {
+    $TOKEN = Get-Content -Path /mnt/c/temp/mytoken.txt
 }
 
 if ($null -eq $TOKEN -or $TOKEN -eq "") {
@@ -71,7 +74,7 @@ foreach ($discussion in $discussions.data.repository.discussions.nodes) {
         $status = ""
         $status_info = ""
         $category = ""
-        [array]$sources = @()
+        [System.Collections.ArrayList]$sources = @()
         foreach ($line in $parsedHtml.ChildNodes.InnerText) {
             if ($line -eq "Description") {
                 $section = "description"
@@ -103,7 +106,7 @@ foreach ($discussion in $discussions.data.repository.discussions.nodes) {
                 }
                 elseif ($section -eq "sources" -and $line -ne "References (URLs)") {
                     if ($null -ne $line -and $line -ne "" -and $line -ne "`n") {
-                        $sources += $line.Split("`n")
+                        $sources.AddRange($line.Split("`n"))
                     }
                 }
             }
