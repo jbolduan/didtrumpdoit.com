@@ -30,7 +30,7 @@ body:
   - type: dropdown
     id: category
     attributes:
-      label: What is the current status of this promise?
+      label: Category
       options:
         - First 24 Hours
         - First 100 Days
