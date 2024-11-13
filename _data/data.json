@@ -45,7 +45,7 @@
             "status": "Broken",
             "status_info": "This promise was marked as broken because it was not fulfilled within 24 hours. It will be marked as compromised when it is executed.",
             "category": "First 24 Hours",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/1",
             "sources": [
                 "https://x.com/RpsAgainstTrump/status/1854554773623578733"
             ]
@@ -56,7 +56,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Environment",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/2",
             "sources": [
                 "https://www.reuters.com/business/environment/trump-prepares-withdrawing-paris-climate-agreement-nyt-reports-2024-11-08/"
             ]
@@ -67,7 +67,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Influencer Promise",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/3",
             "sources": [
                 "https://drive.google.com/file/d/13Z57FXCEflJusMmvj8jF9DCb4YsscEJW/view"
             ]
@@ -78,17 +78,18 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Immigration",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/4",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
         },
         {
-            "title": "Carry out the largest deportation operation in american history",
+            "title": "Carry out the largest deportation operation in American history",
             "description": "Trump made this commitment as a part of his policy platform while running for president.",
             "status": "Not started",
+            "status_info": "No information on this promise yet.",
             "category": "Immigration",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/5",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -99,7 +100,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Energy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/6",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -110,7 +111,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/7",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -121,7 +122,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/8",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -132,7 +133,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/9",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -143,7 +144,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Government",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/10",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -154,7 +155,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "World",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/11",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -165,7 +166,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "World",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/12",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -176,7 +177,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Security",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/13",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -187,7 +188,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Government",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/14",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -198,7 +199,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "World",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/15",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -209,7 +210,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "World",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/16",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -220,18 +221,18 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Government",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/17",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
         },
         {
-            "title": "No cuts to medicare or social security including no increase in retirement age",
+            "title": "No cuts to Medicare or social security including no increase in retirement age",
             "description": "Trump made this commitment as a part of his policy platform while running for president.",
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Government",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/18",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -242,7 +243,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Environment",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/19",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -253,7 +254,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Education",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/20",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -264,7 +265,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Government",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/21",
             "sources": [
                 "https://web.archive.org/web/20241112192047/https://www.donaldjtrump.com/platform"
             ]
@@ -275,7 +276,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/22",
             "sources": [
                 "https://web.archive.org/web/20241107003106/https://taxfoundation.org/blog/trump-overtime-tax-exemption"
             ]
@@ -286,7 +287,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Health",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/23",
             "sources": [
                 "https://web.archive.org/web/20241108152336/https://www.nbcnews.com/politics/donald-trump/trump-says-wants-make-ivf-treatments-paid-government-insurance-compani-rcna168804"
             ]
@@ -297,7 +298,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/24",
             "sources": [
                 "https://www.reuters.com/markets/us/tariffs-tax-cuts-core-trumps-economic-pitch-voters-2024-09-24/"
             ]
@@ -308,7 +309,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/25",
             "sources": [
                 "https://x.com/realDonaldTrump/status/1836100511960818044"
             ]
@@ -319,7 +320,7 @@
             "status": "Not started",
             "status_info": "No information on this promise yet.",
             "category": "Economy",
-            "comments": "https://notimplemented",
+            "comments": "https://github.com/jbolduan/trumpwont.com/discussions/26",
             "sources": [
                 "https://web.archive.org/web/20241113003613/https://apnews.com/article/trump-taxes-social-security-overtime-tariffs-989016ef41dc1533b05d1871d69c03ff",
                 "https://www.reuters.com/world/trump-says-he-would-impose-tariffs-china-if-china-went-into-taiwan-2024-10-18/"
