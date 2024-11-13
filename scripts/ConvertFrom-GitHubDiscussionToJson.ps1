@@ -7,7 +7,9 @@ else {
 }
 $url = "https://api.github.com/graphql"
 
-$TOKEN = Get-Content -Path C:\temp\mytoken.txt
+# This line is only for testing
+# $TOKEN = Get-Content -Path C:\temp\mytoken.txt
+$TOKEN = $ENV:GITHUB_TOKEN
 
 $discussionsQuery = '
 query {
