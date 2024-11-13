@@ -140,7 +140,7 @@ foreach ($discussion in $discussions.data.repository.discussions.nodes) {
         "Education"          = "graduation-cap"
         "Energy"             = "lightbulb"
         "Appointee Promise"  = "person"
-        "Republican Promise" = "elephant"
+        "Republican Promise" = "republican"
         "Influencer Promise" = "trash"
     }
     statuses = [ordered]@{
