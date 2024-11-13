@@ -1,0 +1,20 @@
+name: Update data.json
+run-name: ${{ github.actor }}
+on:
+  discussion:
+    types: [labeled]
+
+jobs:
+  Clone-Repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: Install from PSGallery
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module PSGraphQL, PSParseHTML
+      - name: Run Powershell script
+        shell: pwsh
+        run: . ./scripts/ConvertFrom-GitHubDiscussionToJson.ps1
