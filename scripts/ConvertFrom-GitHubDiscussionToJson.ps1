@@ -9,8 +9,10 @@ $url = "https://api.github.com/graphql"
 
 # This line is only for testing
 # $TOKEN = Get-Content -Path C:\temp\mytoken.txt
-$TOKEN = $ENV:JBOLDUAN_PAT
-
+$TOKEN = $env:JBOLDUAN_PAT
+if ($null -eq $TOKEN -or $TOKEN -eq "") {
+    "TOKEN IS EMPTY FOR SOME REASON"
+}
 $discussionsQuery = '
 query {
   repository(owner:"jbolduan", name:"trumpwont.com") {
