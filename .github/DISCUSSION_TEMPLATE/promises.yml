@@ -44,6 +44,7 @@ body:
         - Security
         - Health
         - World
+        - Appointee Promise
         - Influencer Promise
         - Republican Promise
     validations:

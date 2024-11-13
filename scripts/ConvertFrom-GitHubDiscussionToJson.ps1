@@ -139,6 +139,7 @@ foreach ($discussion in $discussions.data.repository.discussions.nodes) {
         "World"              = "globe"
         "Education"          = "graduation-cap"
         "Energy"             = "lightbulb"
+        "Appointee Promise"  = "person"
         "Republican Promise" = "elephant"
         "Influencer Promise" = "trash"
     }
