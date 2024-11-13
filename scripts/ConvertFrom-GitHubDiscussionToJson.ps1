@@ -1,6 +1,6 @@
 # Use https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens to create a PAT
 if (Get-Module -ListAvailable -Name PSGraphQL) {
-    Import-Module -Name GitHub
+    Import-Module -Name PSGraphQL, PSParseHTML
 }
 else {
     throw "Could not find module GitHub installed.  You need to: Install-Module GitHub"
