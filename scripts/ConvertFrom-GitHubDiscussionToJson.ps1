@@ -41,7 +41,6 @@ $requestHeaders = @{
 [System.Collections.ArrayList]$discussions = @()
 $cursor = ""
 do {
-    $DiscussionsQuery.Replace("{cursor}", $cursor)
     $results = Invoke-GraphQLQuery -Query $DiscussionsQuery.Replace("{cursor}", $cursor) -Uri $url -Headers $requestHeaders
 
     if ($null -ne $results.data.repository.discussions.pageInfo.endCursor -or $results.data.repository.discussions.pageInfo.endCursor -ne "") {
@@ -54,59 +53,60 @@ do {
 # Build Promises section of Json Object
 [System.Collections.ArrayList]$promises = @()
 foreach ($discussion in $discussions.data.repository.discussions.nodes) {
-    $parsedHtml = $discussion.bodyHTML | ConvertFrom-Html
-    $section = ""
-    $description = ""
-    $status = ""
-    $status_info = ""
-    $category = ""
-    $sources = @()
-    foreach ($line in $parsedHtml.ChildNodes.InnerText) {
-        if ($line -eq "Description") {
-            $section = "description"
-        }
-        elseif ($line -eq "What is the current status of this promise?") {
-            $section = "status"
-        }
-        elseif ($line -eq "Status Description") {
-            $section = "status_info"
-        }
-        elseif ($line -eq "Category") {
-            $section = "category"
-        }
-        elseif ($line -eq "References (URLs)") {
-            $section = "sources"
-        }
-        else {
-            if ($section -eq "description" -and $line -ne "Description" -and $line -notmatch "\n") {
-                $description += $line
+    if ("production" -in $discussion.labels.nodes.name) {
+        $parsedHtml = $discussion.bodyHTML | ConvertFrom-Html
+        $section = ""
+        $description = ""
+        $status = ""
+        $status_info = ""
+        $category = ""
+        $sources = @()
+        foreach ($line in $parsedHtml.ChildNodes.InnerText) {
+            if ($line -eq "Description") {
+                $section = "description"
             }
-            elseif ($section -eq "status" -and $line -ne "What is the current status of this promise?" -and $line -notmatch "\n") {
-                $status += $line
+            elseif ($line -eq "What is the current status of this promise?") {
+                $section = "status"
             }
-            elseif ($section -eq "status_info" -and $line -ne "Status Description" -and $line -notmatch "\n") {
-                $status_info += $line
+            elseif ($line -eq "Status Description") {
+                $section = "status_info"
             }
-            elseif ($section -eq "category" -and $line -ne "Category" -and $line -notmatch "\n") {
-                $category += $line
+            elseif ($line -eq "Category") {
+                $section = "category"
             }
-            elseif ($section -eq "sources" -and $line -ne "References (URLs)") {
-                if ($null -ne $line -and $line -ne "" -and $line -ne "`n") {
-                    $sources += $line.Split("`n")
+            elseif ($line -eq "References (URLs)") {
+                $section = "sources"
+            }
+            else {
+                if ($section -eq "description" -and $line -ne "Description" -and $line -notmatch "\n") {
+                    $description += $line
+                }
+                elseif ($section -eq "status" -and $line -ne "What is the current status of this promise?" -and $line -notmatch "\n") {
+                    $status += $line
+                }
+                elseif ($section -eq "status_info" -and $line -ne "Status Description" -and $line -notmatch "\n") {
+                    $status_info += $line
+                }
+                elseif ($section -eq "category" -and $line -ne "Category" -and $line -notmatch "\n") {
+                    $category += $line
+                }
+                elseif ($section -eq "sources" -and $line -ne "References (URLs)") {
+                    if ($null -ne $line -and $line -ne "" -and $line -ne "`n") {
+                        $sources += $line.Split("`n")
+                    }
                 }
             }
         }
+        $null = $promises.Add([PSCustomObject][ordered]@{
+                title       = $discussion.title.Substring(10)
+                description = $description
+                status      = $status
+                status_info = $status_info
+                category    = $category
+                comments    = $discussion.url
+                sources     = $sources.ToArray()
+            })
     }
-    $sources.ToArray().Count
-    $null = $promises.Add([PSCustomObject][ordered]@{
-            title       = $discussion.title.Substring(10)
-            description = $description
-            status      = $status
-            status_info = $status_info
-            category    = $category
-            comments    = $discussion.url
-            sources     = $sources.ToArray()
-        })
 }
 
 # Build Json
