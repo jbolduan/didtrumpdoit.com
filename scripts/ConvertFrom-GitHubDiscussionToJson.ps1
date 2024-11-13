@@ -7,12 +7,19 @@ else {
 }
 $url = "https://api.github.com/graphql"
 
-# This line is only for testing
-# $TOKEN = Get-Content -Path C:\temp\mytoken.txt
-$TOKEN = $env:JBOLDUAN_PAT
+if ($env:JBOLDUAN_PAT) {
+    $TOKEN = $env:JBOLDUAN_PAT
+
+    $PSVersionTable
+}
+else {
+    $TOKEN = Get-Content -Path C:\temp\mytoken.txt
+}
+
 if ($null -eq $TOKEN -or $TOKEN -eq "") {
     "TOKEN IS EMPTY FOR SOME REASON"
 }
+
 $discussionsQuery = '
 query {
   repository(owner:"jbolduan", name:"trumpwont.com") {
@@ -64,7 +71,7 @@ foreach ($discussion in $discussions.data.repository.discussions.nodes) {
         $status = ""
         $status_info = ""
         $category = ""
-        $sources = @()
+        [array]$sources = @()
         foreach ($line in $parsedHtml.ChildNodes.InnerText) {
             if ($line -eq "Description") {
                 $section = "description"
