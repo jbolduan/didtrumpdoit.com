@@ -15,6 +15,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Install from PSGallery
         shell: pwsh
+        env:
+          JBOLDUAN_PAT: ${{ secrets.JBOLDUAN_PAT }}
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module PSGraphQL, PSParseHTML
