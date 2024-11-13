@@ -9,7 +9,7 @@ $url = "https://api.github.com/graphql"
 
 # This line is only for testing
 # $TOKEN = Get-Content -Path C:\temp\mytoken.txt
-$TOKEN = $ENV:GITHUB_TOKEN
+$TOKEN = $ENV:JBOLDUAN_PAT
 
 $discussionsQuery = '
 query {
