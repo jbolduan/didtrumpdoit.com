@@ -3,6 +3,8 @@ run-name: ${{ github.actor }}
 on:
   discussion:
     types: [labeled]
+permissions:
+  contents: write
 
 jobs:
   Clone-Repo:
@@ -18,3 +20,11 @@ jobs:
       - name: Run Powershell script
         shell: pwsh
         run: . ./scripts/ConvertFrom-GitHubDiscussionToJson.ps1
+      - name: Commit new json
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY
+          git checkout "${GITHUB_REF:11}"
+          git commit -am "Automated json update"
+          git push
