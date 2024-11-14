@@ -161,7 +161,7 @@ foreach ($discussion in $discussions.data.repository.discussions.nodes) {
             "icon"  = "ban"
         }
         "Compromised" = [ordered]@{
-            "color" = "compromised"
+            "color" = "primary"
             "icon"  = "handshake"
         }
     }

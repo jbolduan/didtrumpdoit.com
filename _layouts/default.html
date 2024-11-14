@@ -44,9 +44,14 @@
     <script src={{ "/js/functions.js" | relative_url }}></script>
 
     <nav class="navbar fixed-top navbar-expand-lg border-bottom bg-dark shadow-sm">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="https://trumpwont.com">Trump Won't</a>
-            <form class="d-flex justify-content-end">
+        <div class="container-fluid d-flex mb-0">
+            <a class="navbar-brand p-0" href="https://trumpwont.com">Trump Won't</a>
+            <ul class="navbar-nav p-0">
+                <li class="nav-item" nav-item active">
+                    <a href="/olddata" class="nav-link">Old Data</a>
+                </li>
+            </ul>
+            <form class="navbar-nav ms-auto p-0">
                 <a class="nav-link" href="https://github.com/jbolduan/trumpwont.com/issues/new"><button type="button"
                         class="btn btn-outline-primary">Report Issue</button></a>&nbsp;
 

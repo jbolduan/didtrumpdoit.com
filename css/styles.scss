@@ -56,6 +56,18 @@ body {
   --bs-table-hover-color: #6ea8fe !important;
 }
 
+.table-primary {
+    --bs-table-color: #6ea8fe;
+    --bs-table-bg: #031633;
+    --bs-table-border-color: #6ea8fe;
+    --bs-table-striped-bg: #051836;
+    --bs-table-striped-color: #6ea8fe;
+    --bs-table-active-bg: #071936;
+    --bs-table-active-color: #6ea8fe;
+    --bs-table-hover-bg: #071936;
+    --bs-table-hover-color: #6ea8fe;
+}
+
 .hidden {
     display: none;
 }
