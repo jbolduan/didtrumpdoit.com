@@ -2,53 +2,60 @@
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
+# yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Trump Won't
 email: jbolduan+trump@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Track Donald J Trump's Electoral Promises with Trump Tracker.
+description: >- # this means to ignore newlines until "baseurl:"
+  TrumpWont.com is a site dedicated to tracking what Donald Trump accomplishes and what he promised to accomplish.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://trumpwont.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theGimpboy
-github_username: jbolduan
+github_username:  jbolduan
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - html-proofer
 
 sass:
-  sass_dir: css/partials
-  style: compressed
+  style: compact
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - misc
-  - script
-  - Rakefile
+  - scripts
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-# Be sure to exclude vendor from your  _config.yml
-# Travis bundles all gems in the vendor directory on its build servers, which Jekyll will mistakenly read and explode on.
-# https://jekyllrb.com/docs/continuous-integration/
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

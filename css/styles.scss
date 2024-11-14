@@ -1,0 +1,61 @@
+---
+ # Front matter comment to ensure Jekyll properly reads the file
+---
+
+@import "../node_modules/bootstrap-scss/bootstrap";
+
+body {
+    padding-top: 80px;
+}
+
+.table-warning {
+    --bs-table-color: #ffda6a !important;
+    --bs-table-bg: #332701 !important;
+    --bs-table-border-color: #ffda6a !important;
+    --bs-table-striped-bg: #4E3E0C !important;
+    --bs-table-striped-color: #ffda6a !important;
+    --bs-table-active-bg: #5B4912 !important;
+    --bs-table-active-color: #ffda6a !important;
+    --bs-table-hover-bg: #5B4912 !important;
+    --bs-table-hover-color: #ffda6a !important;
+}
+
+.table-success {
+  --bs-table-color: #75b798 !important;
+  --bs-table-bg: #051b11 !important;
+  --bs-table-border-color: #75b798 !important;
+  --bs-table-striped-bg: #092D1D !important;
+  --bs-table-striped-color: #75b798 !important;
+  --bs-table-active-bg: #0B3A25 !important;
+  --bs-table-active-color: #75b798 !important;
+  --bs-table-hover-bg: #0B3A25 !important;
+  --bs-table-hover-color: #75b798 !important;
+}
+
+.table-danger {
+  --bs-table-color: #ea868f !important;
+  --bs-table-bg: #2c0b0e !important;
+  --bs-table-border-color: #ea868f !important;
+  --bs-table-striped-bg: #421114 !important;
+  --bs-table-striped-color: #ea868f !important;
+  --bs-table-active-bg: #501219 !important;
+  --bs-table-active-color: #ea868f !important;
+  --bs-table-hover-bg: #501219 !important;
+  --bs-table-hover-color: #ea868f !important;
+}
+
+.table-info {
+  --bs-table-color: #6ea8fe !important;
+  --bs-table-bg: #031633 !important;
+  --bs-table-border-color: #6ea8fe !important;
+  --bs-table-striped-bg: #051D41 !important;
+  --bs-table-striped-color: #6ea8fe !important;
+  --bs-table-active-bg: #052352 !important;
+  --bs-table-active-color: #6ea8fe !important;
+  --bs-table-hover-bg: #052352 !important;
+  --bs-table-hover-color: #6ea8fe !important;
+}
+
+.hidden {
+    display: none;
+}
