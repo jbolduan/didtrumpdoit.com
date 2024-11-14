@@ -2,7 +2,7 @@
  # Front matter comment to ensure Jekyll properly reads the file
 ---
 
-@import "../node_modules/bootstrap-scss/bootstrap";
+@import "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css";
 
 body {
     padding-top: 80px;
