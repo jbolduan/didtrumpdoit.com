@@ -120,7 +120,7 @@ layout: home
         </div>
 
         <div class="row promises__table">
-            <table class="table table-hover table-striped">
+            <table class="table table-hover">
                 <thead>
                     <tr>
                         <th></th>
