@@ -20,12 +20,6 @@ Install [Jekyll](https://jekyllrb.com/) and Bundler:
 
     gem install jekyll bundler
     bundle install
-    rake serve
+    jekyll serve
 
 Site is now running at [localhost:4000](http://localhost:4000)
-
-## Tests
-
-This is not working currently, will determine what, if any use this has going forward.
-
-    rake test
