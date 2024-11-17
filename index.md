@@ -109,9 +109,6 @@ layout: home
                     <label class="btn btn-outline-primary mr-2 mb-2" for="{{ category }}">{{ category }}</label>
                     {% endfor %}
                 </div>
-                <!-- <input name="filterData" type="checkbox" class="btn-check" id="flexCheckChecked" autocomplete="off"
-            value="Immigration" checked>
-        <label class="btn btn-outline-primary" for="flexCheckChecked">Immigration</label> -->
             </div>
         </div>
         <div class="col-lg-6">
@@ -161,13 +158,16 @@ layout: home
 
                 <tbody class="list" id="promisesList">
                     {% for promise in promises %}
+                    {% assign promiseSafeTitle = promise.title | cgi_escape %}
+                    <!-- {% assign promiseSafeAnchor = promise.title | replace: ' ', '_' | replace: '"', "" %} Keeping this around in case it's useful in the future -->
+                    {% assign promiseSafeAnchor = forloop.index %}
                     <tr class="promise {% if promise.status == 'In progress' %}table-warning{% endif %}{% if promise.status == 'Achieved' %}table-success{% endif %}{% if promise.status == 'Broken' %}table-danger{% endif %}{% if promise.status == 'Compromised' %}table-info{% endif %}"
                         onclick="toggler('div{{ forloop.index}}')">
                         <td class="fit">{{ forloop.index }}.</td>
                         <td>
                             <b><span>{{ promise.category }}</span>:</b>
                             <span class="sr-only">{{ promise.status }}</span>
-                            {{ promise.title }}
+                            <a id="{{ promiseSafeAnchor }}">{{ promise.title }}</a>
                             {% for source in promise.sources %}
                             <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
                             {% endfor %}
@@ -177,6 +177,24 @@ layout: home
                             </div>
                         </td>
                         <td class="fit">
+                            <!-- Share this entry on X-->
+                            <a href="https://x.com/share?text={{ promiseSafeTitle }}&url=https://didtrumpdoit.com/%23{{ promiseSafeAnchor }}"
+                                target="_blank" style="color:#1da1f2;"><i class="fa-brands fa-fw fa-x-twitter"></i></a>
+
+                            <!-- Share this entry on Reddit -->
+                            <a href="http://www.reddit.com/submit?url=https://didtrumpdoit.com/%23{{ promiseSafeAnchor }}&title={{ promiseSafeTitle }}"
+                                target="_blank" style="color:#ff5700;"><i class="fa-brands fa-fw fa-reddit"></i></a>
+
+                            <!-- Share this entry on Facebook -->
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://didtrumpdoit.com/%23{{ promiseSafeAnchor }}"
+                                target="_blank" style="color:#3b5998;"><i
+                                    class="fa-brands fa-fw fa-facebook-square"></i></a>
+
+                            <!-- Link directly to this entry -->
+                            <a href="#{{ promiseSafeAnchor }}" rel="nofollow"><i class="fa fa-fw fa-link"
+                                    aria-hidden="true"></i></a>
+
+                            <!-- Link out to the comments hosted on GitHub -->
                             <a href="{{ promise.comments }}" target="_blank" rel="nofollow">
                                 <i class="fa fa-fw fa-comments" aria-hidden="true"></i>
                             </a>
