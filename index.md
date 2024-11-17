@@ -10,10 +10,10 @@ layout: home
 
 <div class="container-fluid promises-header page-header" id="promises-header">
     <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 p-2">
             <div class="card">
                 <div class="card-header">
-                    Site Stats
+                    <b>2<sup>nd</sup> Term Stats</b>
                 </div>
                 <div class="card-header">
                     <ul class="list-group">
@@ -46,10 +46,10 @@ layout: home
                 </div>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 p-2">
             <div class="card">
                 <div class="card-header">
-                    About The Site
+                    <b>About The Site</b>
                 </div>
                 <div class="card-body">
                     <p>This website is to track all the promises made by Donald Trump, Republican politicians, and
@@ -94,7 +94,7 @@ layout: home
         </div>
     </div>
 </div>
-<br />
+
 <div class="container-fluid promises" id="promises">
     <div class="row promises__search-row">
         <div class="col-md-5">
