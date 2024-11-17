@@ -6,11 +6,11 @@ layout: home
 {% assign statuses = site.data.data.statuses %}
 {% assign total = promises | size %}
 
-{% assign categories = promises | map: 'category' | uniq %}
+{% assign categories = promises | map: 'category' | uniq | sort %}
 
-<div class="container-fluid promises-header page-header" id="promises-header">
+<div class="container-fluid p-2">
     <div class="row">
-        <div class="col-lg-4 p-2">
+        <div class="col-lg-4">
             <div class="card">
                 <div class="card-header">
                     <b>2<sup>nd</sup> Term Stats</b>
@@ -46,7 +46,7 @@ layout: home
                 </div>
             </div>
         </div>
-        <div class="col-lg-8 p-2">
+        <div class="col-lg-8">
             <div class="card">
                 <div class="card-header">
                     <b>About The Site</b>
@@ -95,51 +95,62 @@ layout: home
     </div>
 </div>
 
-<div class="container-fluid promises" id="promises">
-    <div class="row promises__search-row">
-        <div class="col-md-5">
-            <form action="#" class="form-inline">
-                <input id="search" type="text" class="form-control search" placeholder="Search">
-                <button class="promises__category--reset btn btn-primary">
-                    <i class="fa-solid fa-fw fa-arrows-rotate"></i>Clear
-                    <i class="fa-solid fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
-                </button>
-            </form>
-            <br />
+<div class="container-fluid p-2">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <b>Filter by Promise Type:</b>
+                </div>
+                <div class="card-body">
+                    {% for category in categories %}
+                    <input name="filterData" type="checkbox" class="btn-check" id="{{ category }}" autocomplete="off"
+                        value="{{ category }}" checked>
+                    <label class="btn btn-outline-primary mr-2 mb-2" for="{{ category }}">{{ category }}</label>
+                    {% endfor %}
+                </div>
+                <!-- <input name="filterData" type="checkbox" class="btn-check" id="flexCheckChecked" autocomplete="off"
+            value="Immigration" checked>
+        <label class="btn btn-outline-primary" for="flexCheckChecked">Immigration</label> -->
+            </div>
         </div>
-        <div class="col-md-7" id="center-on-mobile">
-            <div class="pull-right">
-                {% for status in statuses %}
-                {% assign status_name = status[0] %}
-                {% assign status_data = status[1] %}
-
-                <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status"
-                    data-facet-value="{{ status_name }}" data-select-single="true">
-                    <i class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
-                    <span class="remove-on-mobile">{{ status_name }}</span>
-                </button>
-                {% endfor %}
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <b>Filter by Promise Status:</b>
+                </div>
+                <div class="card-body">
+                    <form action="#" class="row">
+                        <div class="col-sm-8">
+                            <input id="search" type="text" class="form-control search" placeholder="Search">
+                        </div>
+                        <div class="col-sm-4">
+                            <button class="btn btn-primary" id="filterReset">
+                                <i class="fa-solid fa-fw fa-arrows-rotate"></i>Clear
+                                <i class="fa-solid fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
+                            </button>
+                        </div>
+                    </form>
+                    <br />
+                    {% for status in statuses %}
+                    {% assign status_name = status[0] %}
+                    {% assign status_data = status[1] %}
+                    <input name="filterData" type="checkbox" class="btn-check" id="{{ status_name }}" autocomplete="off"
+                        value="{{ status_name }}" checked>
+                    <label class="btn btn-outline-{{ status_data['color'] }} mr-2 mb-2" for="{{ status_name }}"><i
+                            class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
+                        <span class="remove-on-mobile">{{ status_name }}</span></label>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <ul class="nav nav-tabs" id="myTabs" role="tablist">
-                {% for category in categories %}
-                <li role="presentation" data-list-facet="js-promise-category" data-facet-value="{{ category }}"
-                    class="nav-item {{ category }}">
-                    <a href="#" role="tab" data-bs-toggle="tab" class="nav-link active">
-                        <i class="fa fa-fw fa-{{ icons[category] }}"></i>&nbsp;
-                        <span class="remove-on-mobile">{{ category }}</span>
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-
-        <div class="row">
-            <table class="table table-hover">
+<div class="container-fluid p-2">
+    <div class="row">
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered" id="dataTable">
                 <thead>
                     <tr>
                         <th></th>
@@ -148,14 +159,14 @@ layout: home
                     </tr>
                 </thead>
 
-                <tbody class="list">
+                <tbody class="list" id="promisesList">
                     {% for promise in promises %}
                     <tr class="promise {% if promise.status == 'In progress' %}table-warning{% endif %}{% if promise.status == 'Achieved' %}table-success{% endif %}{% if promise.status == 'Broken' %}table-danger{% endif %}{% if promise.status == 'Compromised' %}table-info{% endif %}"
                         onclick="toggler('div{{ forloop.index}}')">
                         <td class="fit">{{ forloop.index }}.</td>
-                        <td class="js-promise-text">
-                            <b><span class="js-promise-category">{{ promise.category }}</span>:</b>
-                            <span class="js-promise-status sr-only">{{ promise.status }}</span>
+                        <td>
+                            <b><span>{{ promise.category }}</span>:</b>
+                            <span class="sr-only">{{ promise.status }}</span>
                             {{ promise.title }}
                             {% for source in promise.sources %}
                             <sup><a href="{{ source }}">{{ forloop.index }}</a></sup>
