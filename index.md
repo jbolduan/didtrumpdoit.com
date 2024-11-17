@@ -122,9 +122,9 @@ layout: home
                 <div class="card-body">
                     <form action="#" class="row">
                         <div class="col-sm-8">
-                            <input id="search" type="text" class="form-control search" placeholder="Search">
+                            <input id="search" type="text" class="form-control search mr-2 mb-2" placeholder="Search">
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 mr-2 mb-2">
                             <button class="btn btn-primary" id="filterReset">
                                 <i class="fa-solid fa-fw fa-arrows-rotate"></i>Clear
                                 <i class="fa-solid fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
