@@ -49,7 +49,7 @@ layout: home
                     href="https://github.com/jbolduan/trumpwont.com/blob/master/_data/data.json">data.json</a> file or
                 through
                 opening issues/discussions to have others add or update items.</p>
-                <p>This site was created by the<a href="https://destiny.gg">destiny.gg</a> community.</p>
+                <p>This site was created by the <a href="https://destiny.gg">destiny.gg</a> community.</p>
 
             <div id="share-buttons" class="text-center">
                 <ul class="list-inline">
