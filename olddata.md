@@ -44,28 +44,28 @@ layout: home
                 The intention is to identify what was followed through on, what was not, and what was an outright lie.
                 This is a
                 collaborative effort and you can participate by using the <a
-                    href="https://github.com/jbolduan/trumpwont.com">GitHub
+                    href="https://github.com/jbolduan/didtrumpdoit.com">GitHub
                     repository</a> either directly by contributing changes to the <a
-                    href="https://github.com/jbolduan/trumpwont.com/blob/master/_data/data.json">data.json</a> file or
+                    href="https://github.com/jbolduan/didtrumpdoit.com/blob/master/_data/data.json">data.json</a> file or
                 through
                 opening issues/discussions to have others add or update items.</p>
 
             <div id="share-buttons" class="text-center">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a href="https://www.facebook.com/sharer.php?u=https://trumpwont.com" target="_blank"
+                        <a href="https://www.facebook.com/sharer.php?u=https://DidTrumpDoIt.com" target="_blank"
                             style="color:#3b5998; text-align: center;">
                             <i class="fa-brands fa-2x fa-facebook-square"></i><br />Share on Facebook
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://x.com/share?url=https://trumpwont.com/" target="_blank"
+                        <a href="https://x.com/share?url=https://DidTrumpDoIt.com/" target="_blank"
                             style="color:#1da1f2; text-align: center;">
                             <i class="fa-brands fa-2x fa-x-twitter"></i><br />Share on X
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="http://www.reddit.com/submit?url=https://trumpwont.com&title=TrumpWont.com"
+                        <a href="http://www.reddit.com/submit?url=https://DidTrumpDoIt.com&title=DidTrumpDoIt.com"
                             target="_blank" style="color:#ff5700; text-align: center;">
                             <i class="fa-brands fa-2x fa-reddit"></i><br />Share on Reddit
                         </a>

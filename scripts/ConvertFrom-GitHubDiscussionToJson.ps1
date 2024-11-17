@@ -25,7 +25,7 @@ if ($null -eq $TOKEN -or $TOKEN -eq "") {
 
 $discussionsQuery = '
 query {
-  repository(owner:"jbolduan", name:"trumpwont.com") {
+  repository(owner:"jbolduan", name:"didtrumpdoit.com") {
     discussions(first: 10, categoryId: "DIC_kwDONOWonc4CkNhJ", orderBy: {field:CREATED_AT, direction: ASC}{cursor}) {
       nodes {
         id

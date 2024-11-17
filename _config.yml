@@ -21,9 +21,9 @@
 title: Trump Won't
 email: jbolduan+trump@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  TrumpWont.com is a site dedicated to tracking what Donald Trump accomplishes and what he promised to accomplish.
+  DidTrumpDoIt.com is a site dedicated to tracking what Donald Trump accomplishes and what he promised to accomplish.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://trumpwont.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://DidTrumpDoIt.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theGimpboy
 github_username:  jbolduan
 

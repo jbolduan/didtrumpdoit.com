@@ -12,15 +12,15 @@ Explanation of your *issue* in arbitrary form goes here. Please make sure the de
 
 ### Make sure you are using the *latest* version: pull latest commits before reporting any issues
 
-- [ ] I've **verified** and **I assure** that I'm looking at the latest version of TrumpWont.com.
+- [ ] I've **verified** and **I assure** that I'm looking at the latest version of DidTrumpDoIt.com.
 
 ### Before submitting an *issue* make sure you have
 
-- [ ] At least skimmed through [README](https://github.com/jbolduan/trumpwont.com/blob/master/README.md), the [Issues](https://github.com/jbolduan/trumpwont.com/issues), the [Discussions](https://github.com/jbolduan/trumpwont.com/discussions) and [CONTRIBUTING.md](https://github.com/jbolduan/trumpwont.com/blob/master/CONTRIBUTING.md) pages.
+- [ ] At least skimmed through [README](https://github.com/jbolduan/didtrumpdoit.com/blob/master/README.md), the [Issues](https://github.com/jbolduan/didtrumpdoit.com/issues), the [Discussions](https://github.com/jbolduan/didtrumpdoit.com/discussions) and [CONTRIBUTING.md](https://github.com/jbolduan/didtrumpdoit.com/blob/master/CONTRIBUTING.md) pages.
 
 ### What is the purpose of your *issue*
 
-- [ ] Bug report (encountered problems with the TrumpWont.com website)
+- [ ] Bug report (encountered problems with the DidTrumpDoIt.com website)
 - [ ] Site support request (request for adding support)
 - [ ] Feature request (request for a new functionality)
 - [ ] Question

@@ -12,11 +12,11 @@
 
 ### Make sure you are using the *latest* version: pull latest commits before reporting any issues
 
-- [ ] I've **verified** and **I assure** that I'm looking at the latest version of TrumpWont.com.
+- [ ] I've **verified** and **I assure** that I'm looking at the latest version of DidTrumpDoIt.com.
 
 ### Before submitting a *Pull Request* make sure you have
 
-- [ ] At least skimmed through [README](https://github.com/jbolduan/trumpwont.com/blob/master/README.md), the [Issues](https://github.com/jbolduan/trumpwont.com/issues), the [Discussions](https://github.com/jbolduan/trumpwont.com/discussions) and [CONTRIBUTING.md](https://github.com/jbolduan/trumpwont.com/blob/master/CONTRIBUTING.md) pages.
+- [ ] At least skimmed through [README](https://github.com/jbolduan/didtrumpdoit.com/blob/master/README.md), the [Issues](https://github.com/jbolduan/didtrumpdoit.com/issues), the [Discussions](https://github.com/jbolduan/didtrumpdoit.com/discussions) and [CONTRIBUTING.md](https://github.com/jbolduan/didtrumpdoit.com/blob/master/CONTRIBUTING.md) pages.
 
 ---
 
@@ -37,8 +37,8 @@ Where did you find out about the promise getting updated? These news articles sh
 Note: Please try to keep the articles bias free as those will be the highest quality. Public statements are the best option.
 
 Please test after setting up to see if the promise got updated. Use the search function to check if the color got applied.
-Setup instructions in [Read Me](https://github.com/jbolduan/trumpwont.com/blob/master/README.md).
+Setup instructions in [Read Me](https://github.com/jbolduan/didtrumpdoit.com/blob/master/README.md).
 
 After you're done with all of this you're ready to go! Send over the Pull Request and we will get back to you in one business day, if not sooner.
 
-Thank you for your immense contribution, you're helping improve TrumpWont.com everyday.
+Thank you for your immense contribution, you're helping improve DidTrumpDoIt.com everyday.

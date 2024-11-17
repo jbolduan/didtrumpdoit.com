@@ -1,6 +1,6 @@
-# TrumpWont.com
+# DidTrumpDoIt.com
 
-TrumpWont.com is forked from [TrumpTracker](https://trumptracker.github.io/) and [StarCitizenTracker](https://github.com/StarCitizenTracker).  The intention is to carry on tracking things Trump has said he would do and what was actually able to accomplish.
+DidTrumpDoIt.com is forked from [TrumpTracker](https://trumptracker.github.io/) and [StarCitizenTracker](https://github.com/StarCitizenTracker).  The intention is to carry on tracking things Trump has said he would do and what was actually able to accomplish.
 
 ## Report Issues
 
@@ -8,7 +8,7 @@ TrumpWont.com is forked from [TrumpTracker](https://trumptracker.github.io/) and
 
 ## Add Promises
 
-You can either add a promise by updating the [json](https://github.com/jbolduan/trumpwont.com/blob/master/_data/data.json) file, or adding a new promise in the discussions section.
+You can either add a promise by updating the [json](https://github.com/jbolduan/didtrumpdoit.com/blob/master/_data/data.json) file, or adding a new promise in the discussions section.
 
 ## Contributing
 

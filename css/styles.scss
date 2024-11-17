@@ -4,8 +4,19 @@
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css";
 
+@import "https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap";
+
+body {
+  font-family: 'Lexend', sans-serif !important;
+}
+
 .body-content {
   margin-top: 10px;
+}
+
+.table td.fit, .table th.fit {
+  white-space: nowrap;
+  width: 1%;
 }
 
 .table-warning {
