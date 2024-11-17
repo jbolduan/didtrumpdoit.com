@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Trump Won't
+title: DidTrumpDoIt.com - Holding Trump accountable for the things he says
 email: jbolduan+trump@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   DidTrumpDoIt.com is a site dedicated to tracking what Donald Trump accomplishes and what he promised to accomplish.
