@@ -9,8 +9,8 @@ layout: home
 {% assign categories = promises | map: 'category' | uniq | sort %}
 
 <div class="container-fluid p-2">
-    <div class="row gap-3">
-        <div class="col-lg-4">
+    <div class="row">
+        <div class="col-lg-4 p-2">
             <div class="card">
                 <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseStats" style="cursor: pointer;">
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -47,7 +47,7 @@ layout: home
                 </div>
             </div>
         </div>
-        <div class="col-lg-8">
+        <div class="col-lg-8 p-2">
             <div class="card">
                 <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseAbout" style="cursor: pointer;">
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -103,8 +103,8 @@ layout: home
 </div>
 
 <div class="container-fluid p-2">
-    <div class="row  gap-3">
-        <div class="col-lg-6">
+    <div class="row">
+        <div class="col-lg-6 p-2">
             <div class="card">
                 <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseFilterPromiseType" style="cursor: pointer;">
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
@@ -119,7 +119,7 @@ layout: home
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 p-2">
             <div class="card">
                 <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseFilterPromiseStatus" style="cursor: pointer;">
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
