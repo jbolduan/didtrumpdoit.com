@@ -83,3 +83,11 @@ body {
 .hidden {
   display: none;
 }
+
+.card-header .fa-chevron-down {
+  transition: transform 0.3s ease;
+}
+
+.card-header.collapsed .fa-chevron-down {
+  transform: rotate(-90deg);
+}
