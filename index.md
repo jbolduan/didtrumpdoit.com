@@ -9,7 +9,7 @@ layout: home
 {% assign categories = promises | map: 'category' | uniq | sort %}
 
 <div class="container-fluid p-2">
-    <div class="row">
+    <div class="row gap-3">
         <div class="col-lg-4">
             <div class="card">
                 <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseStats" style="cursor: pointer;">
@@ -103,7 +103,7 @@ layout: home
 </div>
 
 <div class="container-fluid p-2">
-    <div class="row">
+    <div class="row  gap-3">
         <div class="col-lg-6">
             <div class="card">
                 <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseFilterPromiseType" style="cursor: pointer;">
