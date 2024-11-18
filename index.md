@@ -66,14 +66,13 @@ layout: home
                         through
                         opening issues/discussions to have others add or update items.</p>
                     <p>This site was created by the <a href="https://destiny.gg">destiny.gg</a> community.</p>
-
+                    {% assign socialDescription = site.description | cgi_escape %}
                     <div id="share-buttons" class="text-center">
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <a href="https://www.facebook.com/sharer.php?u=https://didtrumpdoit.com" target="_blank"
-                                    style="color:#3b5998; text-align: center;">
-                                    <i class="fa-brands fa-2x fa-facebook-square"></i><br />Share on Facebook
-                                </a>
+                                <a href="https://bsky.app/intent/compose?text={{ socialDescription }}%0Ahttps%3A//didtrumpdoit.com"
+                                    target="_blank" style="color:#0085ff; text-align: center;"><i
+                                        class="fa-brands fa-2x fa-bluesky"></i><br />Share on BlueSky</a>
                             </li>
                             <li class="list-inline-item">
                                 <a href="https://x.com/share?url=https://didtrumpdoit.com/" target="_blank"
@@ -85,6 +84,12 @@ layout: home
                                 <a href="http://www.reddit.com/submit?url=https://didtrumpdoit.com&title=DidTrumpDoIt.com"
                                     target="_blank" style="color:#ff5700; text-align: center;">
                                     <i class="fa-brands fa-2x fa-reddit"></i><br />Share on Reddit
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/sharer.php?u=https://didtrumpdoit.com" target="_blank"
+                                    style="color:#3b5998; text-align: center;">
+                                    <i class="fa-brands fa-2x fa-facebook-square"></i><br />Share on Facebook
                                 </a>
                             </li>
                         </ul>
