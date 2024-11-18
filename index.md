@@ -12,10 +12,11 @@ layout: home
     <div class="row">
         <div class="col-lg-4">
             <div class="card">
-                <div class="card-header">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseStats" style="cursor: pointer;">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
                     <b>2<sup>nd</sup> Term Stats</b>
                 </div>
-                <div class="card-header">
+                <div class="card-body collapse show" id="collapseStats">
                     <ul class="list-group">
                         <li class="list-group-item">
                             <i class="fa fa-home fa-fw"></i>
@@ -48,10 +49,11 @@ layout: home
         </div>
         <div class="col-lg-8">
             <div class="card">
-                <div class="card-header">
-                    <b>About The Site</b>
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseAbout" style="cursor: pointer;">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <b>About the Site</b>
                 </div>
-                <div class="card-body">
+                <div class="card-body collapse show" id="collapseAbout">
                     <p>This website is to track all the promises made by Donald Trump, Republican politicians, and
                         conservative
                         influencers.
@@ -104,10 +106,11 @@ layout: home
     <div class="row">
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header">
-                    <b>Filter by Promise Type:</b>
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseFilterPromiseType" style="cursor: pointer;">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <b>Filter by Promise Type</b>
                 </div>
-                <div class="card-body">
+                <div class="card-body collapse show" id="collapseFilterPromiseType">
                     {% for category in categories %}
                     <input name="filterData" type="checkbox" class="btn-check" id="{{ category }}" autocomplete="off"
                         value="{{ category }}" checked>
@@ -118,10 +121,11 @@ layout: home
         </div>
         <div class="col-lg-6">
             <div class="card">
-                <div class="card-header">
-                    <b>Filter by Promise Status:</b>
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#collapseFilterPromiseStatus" style="cursor: pointer;">
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    <b>Filter by Promise Status</b>
                 </div>
-                <div class="card-body">
+                <div class="card-body collapse show" id="collapseFilterPromiseStatus">
                     <form action="#" class="row">
                         <div class="col-sm-8">
                             <input id="search" type="text" class="form-control search mr-2 mb-2" placeholder="Search">
