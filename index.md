@@ -16,8 +16,8 @@ layout: home
                     <i class="fa fa-chevron-down" aria-hidden="true"></i>
                     <b>2<sup>nd</sup> Term Stats</b>
                 </div>
-                <div class="card-body collapse show" id="collapseStats">
-                    <ul class="list-group">
+                <div class="card-body collapse show p-0" id="collapseStats">
+                    <ul class="list-group" style="border-top-left-radius: 0; border-top-right-radius: 0;">
                         <li class="list-group-item">
                             <i class="fa fa-home fa-fw"></i>
                             <b id="inauguration-time">Days Till Inauguration: <span id="inaguration-days"><i
