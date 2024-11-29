@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repo has been replaced by an [updated codebase](https://github.com/jbolduan/didtrumpdoit) but will remain around as an archive for any future reference.
+
 # DidTrumpDoIt.com
 
 DidTrumpDoIt.com is forked from [TrumpTracker](https://trumptracker.github.io/) and [StarCitizenTracker](https://github.com/StarCitizenTracker).  The intention is to carry on tracking things Trump has said he would do and what was actually able to accomplish.
